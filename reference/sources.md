@@ -10,6 +10,7 @@ Every Wenzao-specific fact in this guide should trace to a line below. "Checked"
 | DIA homepage, https://c030.wzu.edu.tw/ | DIA announcement lists, office contact | Page summary | 2026-10-15 | Needs a person to read it |
 | GIES homepage, https://c052.wzu.edu.tw/ | GIES news lists, office contact | Page summary | 2026-10-15 | Needs a person to read it |
 | Registration Section site, https://d001.wzu.edu.tw/ | Registration news list address | Page summary | 2026-10-15 | Needs a person to read it |
+| School-wide news list, https://a001.wzu.edu.tw/list/147031 | School-wide announcement list and related links | Page summary | 2026-10-15 | Needs a person to read it |
 | Project proposal draft (`proposal.md`) | Library description | Proposal text, which cites official university pages | 2026-10-14 | Needs a check against the library site |
 | A GIES master's student's experience | Advisor choice at GIES, the missed selection round, the JSTOR login issue | Told to the team | 2026-10-14 | Needs a second student, and the JSTOR steps tested |
 

@@ -33,6 +33,7 @@ Students from other countries may expect a different login system. Say that it i
 
 - Physical holdings across seven floors, with foreign-language collections in English, Japanese, French, German, Spanish, and Vietnamese, and specialized collections such as the English Foundation Collection.
 - Digital platforms including iVideo, Vision Media, and BBC audio-visual learning portals. These suit language learning more than thesis research.
+- Library site: https://lib.wzu.edu.tw/ (linked from the school's news site on 2026-10-15, not opened by us yet).
 - `TODO(verify)`: the list of research databases, the proxy or login method, opening hours, interlibrary loan, how to ask a librarian, and the contact.
 
 ## Finding literature for a thesis

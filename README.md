@@ -16,7 +16,7 @@ It is plain Markdown. It needs no particular AI provider, no tools, and no inter
 | `data/calendar-115.json` | The calendar, as data. The single source of truth for dates |
 | `scripts/build.py` | Builds the calendar table, the `.ics` file, and the one-file bundle from the data |
 | `dist/` | Built files: `wenzao-115-masters.ics` (for students' calendars) and `wenzao-masters-guide-bundle.md` (everything in one file) |
-| `evals/` | 25 test questions, a scoring rubric, a scoring sheet, and a loop for improving the guide. Start with `evals/README.md` |
+| `evals/` | 26 test questions, a scoring rubric, a scoring sheet, and a loop for improving the guide. Start with `evals/README.md` |
 
 ## How a student uses it
 

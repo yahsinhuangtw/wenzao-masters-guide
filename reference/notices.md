@@ -15,7 +15,13 @@ Status: the page addresses below were read on 2026-10-15 from page summaries. No
 | GIES activities (活動訊息) | Forums, events | https://c052.wzu.edu.tw/list/147292 | The newest items were from 2023, so it is probably not where current events appear. Say so |
 | GIES Facebook and Instagram | Current activities, probably | https://www.facebook.com/wenzao.eucenter/ and https://www.instagram.com/wenzao_europeanstudies/ | The assistant usually can't read them |
 | Registration Section latest news (註冊組) | Registration rules, minors and double majors, scholarship result notices | https://d001.wzu.edu.tw/category/134860 | University-wide, not department-specific |
-| Campus-wide announcements, library news, international office news | Talks, workshops, library platforms | not found | `TODO(verify)`: find the addresses |
+| School-wide announcements (校內公告, tag list) | Forwarded notices from other universities and agencies (conferences, calls for papers, workshops, competitions, training programs) and some internal notices | https://a001.wzu.edu.tw/list/147031 | Busy: about 5 items a day on weekdays (50 items covered 2026-10-06 to 2026-10-15). Checked 2026-10-15. See the section below |
+| School-wide latest news | Wider university news | https://a001.wzu.edu.tw/category/6904 | Listed on the site, not opened |
+| School-wide academic calendar and campus-wide events | Calendar page and school-level events | https://a001.wzu.edu.tw/category/6952 and https://a001.wzu.edu.tw/category/6960 | Listed on the site, not opened |
+| Scholarships (獎助學金資訊) | Scholarship announcements | https://c004.wzu.edu.tw/category/146891 | Listed on the site, not opened |
+| International and cross-strait affairs office (國際暨兩岸合作處) | Exchange, international students, partner schools | http://c015.wzu.edu.tw/ | Listed on the site, not opened. `TODO(verify)`: find its announcement list |
+| Library site (圖書館) | Library news, databases, services | https://lib.wzu.edu.tw/ | Listed on the site, not opened. `TODO(verify)`: find its announcement list |
+| Student portal for current students (在校生) | Student services | https://a001.wzu.edu.tw/visit/6 | Listed on the site, not opened |
 
 Be honest about the limits: department pages are not the only place, and often not the main place, where students hear about events. Student group chats are. If a list looks stale or has nothing recent, say so and point the student to the department's Facebook group.
 
@@ -31,6 +37,16 @@ Be honest about the limits: department pages are not the only place, and often n
 6. **Offer the weekly routine** once: `templates/weekly-notices-prompt.md`.
 
 You can't register anyone for anything, and you can't see Facebook or LINE groups. Say so if asked.
+
+## School-wide announcements
+
+The school-wide list (`https://a001.wzu.edu.tw/list/147031`) updates much more often than the department pages, so it is where new items appear first. It is also noisy, so don't read it out in order.
+
+- **What is on it.** Mostly notices forwarded from other organizations (tagged 【轉知】, "forwarded for your information") and items from the Research and Development Office's industry-government-academia unit (【研究發展處】【產官學組】): conferences, calls for papers, workshops, training programs, and competitions run by other universities and agencies. Some are internal notices. A forwarded notice is not a university decision, and it usually is not aimed only at Wenzao students.
+- **When to use it.** When the student asks for school news, what's new, talks and workshops, calls for papers or competitions, or anything not specific to their department. For a department question, start with the department list and add this one as a second source.
+- **How to read it.** Look at the newest page only (about the last two weeks). Pick at most five items that could matter to a master's student: calls for papers and conferences in their field, research or language training, competitions, scholarships, internships. Skip items clearly for someone else (a medical device competition for a language student). Open the top three posts and use the same fields as above. Say that the list has many more items.
+- **The tags.** 【轉知】 (forwarded), 【研究發展處】 (Research and Development Office), 【產官學組】 (industry-government-academia unit). Explain them once if you use them.
+- **Be honest.** Say if the list shows nothing relevant, and say which date range you read. Page 2 and later exist (`?&pages=2`), but a short summary is more useful than reading all of them.
 
 ## Summarizing a pasted announcement
 
