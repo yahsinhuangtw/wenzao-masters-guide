@@ -1,7 +1,7 @@
 {
  "extracted": "2026-10-15",
  "source_list": "https://a001.wzu.edu.tw/list/147031",
- "note": "Hand-extracted from the post text with WebFetch. A field is null when the post does not state it. city_inferred is true when the post gives no city and it was inferred from the venue name.",
+ "note": "Hand-extracted from the post text with WebFetch. A field is null when the post does not state it. city_inferred is true when the post gives no city and it was inferred from the venue name. English fields (title_en, organizer_en, venue_en, city_en) are translations by Claude; the Mandarin fields are the posts' own wording.",
  "events": [
   {
    "id": "530800",
@@ -22,9 +22,12 @@
      "city_inferred": false,
      "queries": [
       "文藻外語大學"
-     ]
+     ],
+     "venue_en": "Room Q002, Qiuzhen Building (Wenzao campus)",
+     "city_en": "Kaohsiung"
     }
-   ]
+   ],
+   "organizer_en": "EU Tourism, Culture and Trade Park (Wenzao)"
   },
   {
    "id": "530984",
@@ -46,9 +49,12 @@
      "queries": [
       "成功大學 勝利校區",
       "國立成功大學"
-     ]
+     ],
+     "venue_en": "Future Museum, 3F, Shengli Campus, National Cheng Kung University",
+     "city_en": "Tainan"
     }
-   ]
+   ],
+   "organizer_en": "National Cheng Kung University Museum"
   },
   {
    "id": "530981",
@@ -72,9 +78,12 @@
       "成功大學 自強校區",
       "國立成功大學"
      ],
-     "note": "Meets 11/8, 11/15, 11/29, 12/6, 12/12"
+     "note": "Meets 11/8, 11/15, 11/29, 12/6, 12/12",
+     "venue_en": "Room 503 (computer classroom), 5F, Dept. of Systems and Naval Mechatronic Engineering, Zijiang Campus, National Cheng Kung University",
+     "city_en": "Tainan"
     }
-   ]
+   ],
+   "organizer_en": "Southern Taiwan Science Park Industry-Academia Association"
   },
   {
    "id": "530973",
@@ -96,9 +105,12 @@
      "queries": [
       "新北市三峽區大學路151號",
       "國立臺北大學 三峽校區"
-     ]
+     ],
+     "venue_en": "International Conference Hall, Room 1F01, Humanities Building, Sanxia Campus, National Taipei University",
+     "city_en": "New Taipei"
     }
-   ]
+   ],
+   "organizer_en": "National Taipei University"
   },
   {
    "id": "530971",
@@ -121,7 +133,9 @@
       "東吳大學 外雙溪校區",
       "東吳大學",
       "東吳大學 外雙溪"
-     ]
+     ],
+     "venue_en": "Room R0905 (English and American Culture Classroom), Waishuangxi Campus, Soochow University (pre-conference workshop)",
+     "city_en": "Taipei"
     },
     {
      "date": "2026-11-14",
@@ -133,9 +147,12 @@
      "city_inferred": true,
      "queries": [
       "劍潭青年活動中心"
-     ]
+     ],
+     "venue_en": "Taipei Jiantan Youth Activity Center (conference)",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "Soochow University, Department of English"
   },
   {
    "id": "530967",
@@ -158,7 +175,9 @@
      "queries": [
       "駁二藝術特區"
      ],
-     "note": "A third date, 2026-11-21, is also listed"
+     "note": "A third date, 2026-11-21, is also listed",
+     "venue_en": "Pier-2 Art Center",
+     "city_en": "Kaohsiung"
     },
     {
      "date": "2026-11-21",
@@ -169,9 +188,12 @@
      "city_inferred": true,
      "queries": [
       "駁二藝術特區"
-     ]
+     ],
+     "venue_en": "Pier-2 Art Center",
+     "city_en": "Kaohsiung"
     }
-   ]
+   ],
+   "organizer_en": "Kaohsiung City Government, Bureau of Cultural Affairs"
   },
   {
    "id": "530965",
@@ -194,9 +216,12 @@
      "queries": [
       "中國醫藥大學 水湳校區",
       "中國醫藥大學"
-     ]
+     ],
+     "venue_en": "International Conference Hall, B2, Excellence Building, Shuinan Campus, China Medical University",
+     "city_en": "Taichung"
     }
-   ]
+   ],
+   "organizer_en": "China Medical University"
   },
   {
    "id": "530958",
@@ -219,9 +244,12 @@
      "queries": [
       "銘傳大學 桃園校區",
       "銘傳大學"
-     ]
+     ],
+     "venue_en": "Taoyuan Campus, Ming Chuan University",
+     "city_en": "Taoyuan"
     }
-   ]
+   ],
+   "organizer_en": "Ming Chuan University"
   },
   {
    "id": "530954",
@@ -243,9 +271,12 @@
      "queries": [
       "臺中市霧峰區吉峰東路168號",
       "朝陽科技大學"
-     ]
+     ],
+     "venue_en": "Shiuan Hall, 3F, Management Building, Chaoyang University of Technology",
+     "city_en": "Taichung"
     }
-   ]
+   ],
+   "organizer_en": "Chaoyang University of Technology"
   },
   {
    "id": "530951",
@@ -269,9 +300,12 @@
      "city_inferred": true,
      "queries": [
       "大臺南會展中心"
-     ]
+     ],
+     "venue_en": "Greater Tainan Convention and Exhibition Center",
+     "city_en": "Tainan"
     }
-   ]
+   ],
+   "organizer_en": "National Academy of Marine Research"
   },
   {
    "id": "530948",
@@ -292,9 +326,12 @@
      "city_inferred": true,
      "queries": [
       "中山醫學大學"
-     ]
+     ],
+     "venue_en": "Chung Shan Medical University",
+     "city_en": "Taichung"
     }
-   ]
+   ],
+   "organizer_en": "General Education Association of Taiwan (ROC)"
   },
   {
    "id": "530944",
@@ -319,9 +356,12 @@
       "米堤大飯店",
       "中壢米堤大飯店 桃園市中壢區",
       "Midi Hotel Zhongli"
-     ]
+     ],
+     "venue_en": "Midi Hotel Zhongli",
+     "city_en": "Taoyuan"
     }
-   ]
+   ],
+   "organizer_en": "National Central University, Dept. of Biomedical Sciences and Engineering"
   },
   {
    "id": "530943",
@@ -343,7 +383,9 @@
      "queries": [
       "清華大學 創新育成中心",
       "國立清華大學"
-     ]
+     ],
+     "venue_en": "Zhengwen Hall, 1F, Innovation Incubation Center, National Tsing Hua University (Hsinchu session)",
+     "city_en": "Hsinchu"
     },
     {
      "date": "2026-11-02",
@@ -355,9 +397,12 @@
      "queries": [
       "中央大學 產學營運中心",
       "國立中央大學"
-     ]
+     ],
+     "venue_en": "Startup exchange space, 1F, Industry-Academia Operations Center, National Central University (Taoyuan session)",
+     "city_en": "Taoyuan"
     }
-   ]
+   ],
+   "organizer_en": "Industrial Technology Research Institute (ITRI) for the National Science and Technology Council"
   },
   {
    "id": "530938",
@@ -380,9 +425,12 @@
      "queries": [
       "國立臺灣師範大學 教育學院大樓",
       "國立臺灣師範大學"
-     ]
+     ],
+     "venue_en": "International Conference Hall, 2F, College of Education Building, National Taiwan Normal University",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "National Taiwan Normal University"
   },
   {
    "id": "530930",
@@ -406,9 +454,12 @@
       "國立臺南大學 樹林街",
       "國立臺南大學 本部校區",
       "National University of Tainan"
-     ]
+     ],
+     "venue_en": "Chengzheng Building (rooms B401, B307, B308), National University of Tainan",
+     "city_en": "Tainan"
     }
-   ]
+   ],
+   "organizer_en": "National University of Tainan"
   },
   {
    "id": "530924",
@@ -432,9 +483,12 @@
      "queries": [
       "政大公企中心",
       "國立政治大學 公企中心"
-     ]
+     ],
+     "venue_en": "National Chengchi University, Center for Public and Business Administration Education",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "National Taiwan Normal University"
   },
   {
    "id": "530910",
@@ -459,9 +513,12 @@
      "city_inferred": true,
      "queries": [
       "靜宜大學"
-     ]
+     ],
+     "venue_en": "Room 221, Boduo Building, Providence University",
+     "city_en": "Taichung"
     }
-   ]
+   ],
+   "organizer_en": "Providence University"
   },
   {
    "id": "530904",
@@ -483,9 +540,12 @@
      "queries": [
       "新北市板橋區中山路一段141號",
       "新板金融大樓"
-     ]
+     ],
+     "venue_en": "17F, Xinban Financial Building, Banqiao",
+     "city_en": "New Taipei"
     }
-   ]
+   ],
+   "organizer_en": "New Taipei City Government"
   },
   {
    "id": "530901",
@@ -509,9 +569,12 @@
       "國立臺灣師範大學 科學教育中心",
       "國立臺灣師範大學 公館校區",
       "臺灣師範大學 公館"
-     ]
+     ],
+     "venue_en": "Science Education Center, National Taiwan Normal University",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "Taiwan Statistical Methodology Society"
   },
   {
    "id": "530942",
@@ -533,9 +596,12 @@
      "queries": [
       "國立臺北大學 合江校區",
       "國立臺北大學 臺北校區"
-     ]
+     ],
+     "venue_en": "Zijiang Building, Hejiang Campus, National Taipei University",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "National Taipei University"
   },
   {
    "id": "530898",
@@ -557,9 +623,12 @@
      "city_inferred": true,
      "queries": [
       "國立嘉義大學 蘭潭校區"
-     ]
+     ],
+     "venue_en": "Lantan Campus, National Chiayi University",
+     "city_en": "Chiayi"
     }
-   ]
+   ],
+   "organizer_en": "National Chiayi University, Language Center"
   },
   {
    "id": "530896",
@@ -581,9 +650,12 @@
      "queries": [
       "屏東市民生路4-18號",
       "國立屏東大學 民生校區"
-     ]
+     ],
+     "venue_en": "International Conference Hall, Wuyu Building, Minsheng Campus, National Pingtung University",
+     "city_en": "Pingtung County"
     }
-   ]
+   ],
+   "organizer_en": "National Pingtung University"
   },
   {
    "id": "530893",
@@ -605,9 +677,12 @@
      "queries": [
       "中央研究院 人文社會科學館",
       "中央研究院"
-     ]
+     ],
+     "venue_en": "International Conference Hall, 3F, Humanities Building, Academia Sinica",
+     "city_en": "Taipei"
     }
-   ]
+   ],
+   "organizer_en": "Academia Sinica"
   },
   {
    "id": "530885",
@@ -630,9 +705,12 @@
      "queries": [
       "國立清華大學 台積館",
       "國立清華大學"
-     ]
+     ],
+     "venue_en": "9F, TSMC Building, National Tsing Hua University",
+     "city_en": "Hsinchu"
     }
-   ]
+   ],
+   "organizer_en": "National Tsing Hua University, Resilience Research Center"
   },
   {
    "id": "530884",
@@ -657,9 +735,12 @@
      "queries": [
       "衡道堂",
       "臺中市南區復興路三段362號"
-     ]
+     ],
+     "venue_en": "Small auditorium, Hengdao Hall, Cultural Heritage Park, Ministry of Culture",
+     "city_en": "Taichung"
     }
-   ]
+   ],
+   "organizer_en": "Ministry of Culture, Bureau of Cultural Heritage"
   },
   {
    "id": "530881",
@@ -681,9 +762,12 @@
      "queries": [
       "高雄市苓雅區和平一路116號",
       "國立高雄師範大學 和平校區"
-     ]
+     ],
+     "venue_en": "Lecture hall, 2F, Activity Center, Heping Campus, National Kaohsiung Normal University",
+     "city_en": "Kaohsiung"
     }
-   ]
+   ],
+   "organizer_en": "National Yang Ming Chiao Tung University, Center for Humanities and Social Sciences Research"
   }
  ],
  "online": [
@@ -695,7 +779,8 @@
     "2026-10-14",
     "2026-10-22"
    ],
-   "note": "Google Meet"
+   "note": "Google Meet",
+   "title_en": "TaiwanGPS overseas talent sharing session and study-abroad briefing"
   },
   {
    "id": "530970",
@@ -704,7 +789,8 @@
    "dates": [
     "2026-11-06"
    ],
-   "note": "Google Meet"
+   "note": "Google Meet",
+   "title_en": "2026 Asian Youth Education Development Forum: education for overseas Chinese students in the AI era"
   },
   {
    "id": "530880",
@@ -713,7 +799,8 @@
    "dates": [
     "2026-11-10"
    ],
-   "note": "Cisco Webex"
+   "note": "Cisco Webex",
+   "title_en": "2026 research participant protection ethics seminar (X)"
   },
   {
    "id": "530918",
@@ -723,7 +810,8 @@
     "2026-11-23",
     "2026-11-27"
    ],
-   "note": "online"
+   "note": "online",
+   "title_en": "Fundamentals of Communication online training workshop"
   },
   {
    "id": "530912",
@@ -732,39 +820,46 @@
    "dates": [
     "2026-11-10"
    ],
-   "note": "online"
+   "note": "online",
+   "title_en": "Research ethics training (online course)"
   }
  ],
  "no_venue": [
   {
    "id": "530961",
    "title_zh": "2026智慧生醫影像技術種子教師研習營",
-   "reason": "Details are in PDF attachments"
+   "reason": "Details are in PDF attachments",
+   "title_en": "2026 Smart Biomedical Imaging seed-teacher training camp"
   },
   {
    "id": "530927",
    "title_zh": "合作事業國際論壇與工作坊",
-   "reason": "Details are in a PDF attachment"
+   "reason": "Details are in a PDF attachment",
+   "title_en": "International forum and workshop on cooperative enterprises"
   },
   {
    "id": "530890",
    "title_zh": "2026智慧永續循環技術研討會暨專題競賽",
-   "reason": "Date given, venue not stated"
+   "reason": "Date given, venue not stated",
+   "title_en": "2026 Smart Sustainable Circular Technology symposium and project competition"
   },
   {
    "id": "530905",
    "title_zh": "2027第9屆社會企業創業提案競賽",
-   "reason": "Competition, no venue or event date"
+   "reason": "Competition, no venue or event date",
+   "title_en": "2027 9th Social Enterprise Startup Proposal Competition"
   },
   {
    "id": "530907",
    "title_zh": "2026年全國智慧運算與量子資訊創新應用競賽",
-   "reason": "Finals 2026-12-04, venue not stated"
+   "reason": "Finals 2026-12-04, venue not stated",
+   "title_en": "2026 National Smart Computing and Quantum Information Innovation Competition"
   },
   {
    "id": "530902",
    "title_zh": "2026全國大專院校與高中職創新創意創業競賽",
-   "reason": "Competition, no venue or event date"
+   "reason": "Competition, no venue or event date",
+   "title_en": "2026 National Innovation, Creativity and Entrepreneurship Competition (universities and high schools)"
   }
  ]
 }

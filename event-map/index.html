@@ -46,14 +46,19 @@
   details { border-top: 1px solid var(--line); padding: 8px 12px; font-size: 13px; }
   details summary { cursor: pointer; font-weight: 600; }
   details ul { margin: 6px 0 0; padding-left: 18px; }
+  details ul li { margin-bottom: 8px; line-height: 1.35; }
+  #unmapped[open] { max-height: 40%; overflow-y: auto; flex-shrink: 0; }
+  #list { min-height: 120px; }
   .lbl { background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 12px; line-height: 1.3; max-width: 230px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,.25); }
   .lbl::before { display: none; }
   .lbl b { color: var(--accent); font-weight: 600; }
   .lbl i { font-style: normal; color: var(--muted); }
+  #unmapped-body .zh-inline { display: block; color: var(--muted); font-size: 12px; }
   .popup hr { border: 0; border-top: 1px solid #dcdad2; margin: 10px 0 8px; }
   .popup .scroll { max-height: 280px; overflow-y: auto; padding-right: 4px; }
   .popup h3 { margin: 0 0 2px; font-size: 15px; }
-  .popup .en { color: #5d676f; font-size: 12px; margin-bottom: 4px; }
+  .popup .zh { color: #5d676f; font-size: 12px; margin-bottom: 4px; }
+  .popup .zh-inline { display: block; color: #5d676f; font-size: 12px; }
   .popup dl { margin: 6px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; font-size: 13px; }
   .popup dt { color: #5d676f; }
   .popup dd { margin: 0; }
@@ -92,8 +97,8 @@
   <div id="map" role="region" aria-label="Map of Taiwan with event pins"></div>
 </main>
 <footer>
-  Student pilot, not an official Wenzao Ursuline University of Languages page. Fields were read from each post by hand/LLM and may be wrong: check the original post before you go. Pins are placed by OpenStreetMap search; “institution only” pins mark the university, not the room.
-  Map © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+  Student pilot, not an official Wenzao Ursuline University of Languages page. English titles, venues and organizers are Claude's translations of the Mandarin posts (the Mandarin original is shown in smaller grey text). Fields may be wrong: check the original post before you go. Pins are placed by OpenStreetMap search; “institution only” pins mark the university, not the room.
+  Pins placed with <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> data. Basemap tiles © Esri, HERE, Garmin, OpenStreetMap contributors.
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -108,6 +113,7 @@ const KIND = { conference: 'Conference', forum: 'Forum', workshop: 'Workshop', l
   competition: 'Competition', launch: 'Launch event', 'info-session': 'Info session' };
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cityEn = ev => ev.sessions.map(s => s.city_en).filter((v, i, a) => v && a.indexOf(v) === i);
 const postUrl = id => `https://a001.wzu.edu.tw/article/${id}`;
 
 let events = [], map, layer, places = [], eventPlace = new Map(), state = { q: '', when: 'all', city: '', kind: '' }, selected = null;
@@ -121,7 +127,7 @@ function fmtDate(s) {
 function daysFrom(d) { return Math.round((new Date(d + 'T00:00:00') - TODAY) / 864e5); }
 
 function matches(ev) {
-  const hay = [ev.title_zh, ev.title_en, ev.organizer, ...ev.sessions.map(s => s.venue_zh)].join(' ').toLowerCase();
+  const hay = [ev.title_zh, ev.title_en, ev.organizer, ev.organizer_en, ...ev.sessions.flatMap(s => [s.venue_zh, s.venue_en, s.city_en])].join(' ').toLowerCase();
   if (state.q && !hay.includes(state.q.toLowerCase())) return false;
   if (state.city && !ev.sessions.some(s => s.city === state.city)) return false;
   if (state.kind && ev.kind !== state.kind) return false;
@@ -137,14 +143,15 @@ function popupHtml(ev, s) {
   const p = s.geo ? PRECISION[s.geo.precision] : null;
   const dl = [
     ['When', `${fmtDate(s)}${s.time ? ', ' + esc(s.time) : ''}`],
-    ['Where', esc(s.venue_zh) + (s.address ? `<br>${esc(s.address)}` : '')],
-    ['Organizer', esc(ev.organizer)],
+    ['Where', esc(s.venue_en || s.venue_zh) + `<span class="zh-inline" lang="zh-TW">${esc(s.venue_zh)}${s.address ? '<br>' + esc(s.address) : ''}</span>`],
+    ['City', esc(s.city_en || s.city)],
+    ['Organizer', esc(ev.organizer_en || ev.organizer) + `<span class="zh-inline" lang="zh-TW">${esc(ev.organizer)}</span>`],
     ['Format', esc(ev.format || 'not stated')],
     ['Deadline', ev.deadline ? `${fmtDate({ date: ev.deadline })}${ev.deadline_note ? ' (' + esc(ev.deadline_note) + ')' : ''}` : 'none stated'],
     ['Pin', p ? esc(p[0]) : 'none']
   ].map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
   const flags = (ev.flags || []).map(f => `<div class="flag">${esc(f)}</div>`).join('');
-  return `<div class="popup"><h3>${esc(ev.title_zh)}</h3><div class="en">${esc(ev.title_en)}</div><dl>${dl}</dl>${flags}<p><a href="${postUrl(ev.id)}" target="_blank" rel="noopener">Original post ↗</a></p></div>`;
+  return `<div class="popup"><h3>${esc(ev.title_en)}</h3><div class="zh" lang="zh-TW">${esc(ev.title_zh)}</div><dl>${dl}</dl>${flags}<p><a href="${postUrl(ev.id)}" target="_blank" rel="noopener">Original post ↗</a></p></div>`;
 }
 
 function placeHtml(pl) {
@@ -216,9 +223,9 @@ function render() {
     const unpinned = ev.sessions.some(s => !s.geo) ? '<span class="tag warn">no pin</span>' : '';
     const dates = ev.sessions.map(fmtDate).filter((v, i, a) => a.indexOf(v) === i).join('; ');
     return `<button class="item" data-id="${ev.id}"${selected === ev.id ? ' aria-current="true"' : ''}>
-      <div class="t">${esc(ev.title_zh)}</div><div class="en">${esc(ev.title_en)}</div>
+      <div class="t">${esc(ev.title_en)}</div><div class="en" lang="zh-TW">${esc(ev.title_zh)}</div>
       <div class="meta"><span class="tag">${KIND[ev.kind] || ev.kind}</span>${esc(dates)}</div>
-      <div class="meta">${esc(ev.sessions.map(s => s.city).filter((v, i, a) => a.indexOf(v) === i).join(', '))} ${warn}${unpinned}</div></button>`;
+      <div class="meta">${esc(cityEn(ev).join(', '))} ${warn}${unpinned}</div></button>`;
   }).join('') || '<p style="padding:12px">No events match.</p>';
 }
 
@@ -237,7 +244,7 @@ function select(id, fly = true) {
 
 async function init() {
   map = L.map('map').setView([23.7, 120.95], 8);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap contributors' }).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles © Esri, HERE, Garmin, OpenStreetMap contributors' }).addTo(map);
   layer = L.layerGroup().addTo(map);
   map.on('zoomend', declutter);
 
@@ -251,15 +258,15 @@ async function init() {
   events = data.events.slice().sort((a, b) => firstDate(a).localeCompare(firstDate(b)));
   $('asof').textContent = data.extracted;
 
-  const cities = [...new Set(events.flatMap(e => e.sessions.map(s => s.city)))].sort();
-  $('city').innerHTML += cities.map(c => `<option>${esc(c)}</option>`).join('');
+  const cityMap = new Map(events.flatMap(e => e.sessions.map(s => [s.city, s.city_en || s.city])));
+  $('city').innerHTML += [...cityMap.entries()].sort((a, b) => a[1].localeCompare(b[1])).map(([k, v]) => `<option value="${esc(k)}">${esc(v)}</option>`).join('');
   const kinds = [...new Set(events.map(e => e.kind))].sort();
   $('kind').innerHTML += kinds.map(k => `<option value="${k}">${KIND[k] || k}</option>`).join('');
 
   const rows = [
-    ...(data.online || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_zh)}</a> <span class="tag">online · ${esc(o.dates.join(', '))}</span></li>`),
-    ...(data.no_venue || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_zh)}</a> <span class="tag warn">${esc(o.reason)}</span></li>`),
-    ...events.flatMap(e => e.sessions.filter(s => !s.geo).map(s => `<li><a href="${postUrl(e.id)}" target="_blank" rel="noopener">${esc(e.title_zh)}</a> <span class="tag warn">venue “${esc(s.venue_zh)}” not found on the map</span></li>`))
+    ...(data.online || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_en)}</a> <span class="tag">online · ${esc(o.dates.join(', '))}</span><span class="zh-inline" lang="zh-TW">${esc(o.title_zh)}</span></li>`),
+    ...(data.no_venue || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_en)}</a> <span class="tag warn">${esc(o.reason)}</span><span class="zh-inline" lang="zh-TW">${esc(o.title_zh)}</span></li>`),
+    ...events.flatMap(e => e.sessions.filter(s => !s.geo).map(s => `<li><a href="${postUrl(e.id)}" target="_blank" rel="noopener">${esc(e.title_en)}</a> <span class="tag warn">venue not found on the map: ${esc(s.venue_en)}</span><span class="zh-inline" lang="zh-TW">${esc(e.title_zh)}</span></li>`))
   ];
   $('unmapped-body').innerHTML = `<ul>${rows.join('')}</ul>`;
   document.querySelector('#unmapped summary').textContent = `Not on the map (${rows.length})`;
