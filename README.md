@@ -16,7 +16,7 @@ It is plain Markdown. It needs no particular AI provider, no tools, and no inter
 | `data/calendar-115.json` | The calendar, as data. The single source of truth for dates |
 | `scripts/build.py` | Builds the calendar table, the `.ics` file, and the one-file bundle from the data |
 | `dist/` | Built files: `wenzao-115-masters.ics` (for students' calendars) and `wenzao-masters-guide-bundle.md` (everything in one file) |
-| `tests/test-questions.md` | 17 questions to test the guide and compare AI assistants |
+| `evals/` | 19 test questions, a scoring rubric, a scoring sheet, and a loop for improving the guide. Start with `evals/README.md` |
 
 ## How a student uses it
 
@@ -51,6 +51,6 @@ To fix a fact: edit the reference file, change its status, update `reference/sou
 - A person comparing the calendar dates with the PDF.
 - Scholarships, visa and work rules, insurance, and campus life: not covered in this pilot.
 
-## Testing
+## Testing and improving
 
-Run the questions in `tests/test-questions.md` with and without the guide on two or three different assistants, and record the results in the table at the bottom of that file.
+See `evals/README.md`. In short: run the questions with and without the guide on two or three assistants, score the answers, and use the differences to decide what to fix next.

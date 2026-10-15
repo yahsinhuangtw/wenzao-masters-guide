@@ -107,7 +107,8 @@ def fold(line):
 
 
 def build_ics(data):
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    # Fixed stamp (the data extraction date) so rebuilding without changes gives an identical file.
+    now = data["extracted"].replace("-", "") + "T000000Z"
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
