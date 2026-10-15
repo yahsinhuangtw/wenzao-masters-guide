@@ -4,7 +4,8 @@ One row per round. Fill the "Change" and "Why" before you run, and the "Result" 
 
 | Round | Date | Guide version (git commit) | Change made | Why (what was failing) | Assistants and arms run | Result (F1, helpful, notable surprises) |
 |---|---|---|---|---|---|---|
-| 0 | | | Baseline, no changes | See how far the guide is from the no-guide answers | | |
+| 0 | 2026-10-15 | `77dce42` (guide v1) | Baseline, no changes | See how far the guide is from the no-guide answers | Claude subagents, with and without the guide, 19 questions, web off | Guide 97% of checks, no guide 58%. The gain comes from Wenzao facts (calendar, GIES credits, DIA AI guidelines), Mandarin terms, and templates. Behavior checks (honesty, not inventing) mostly passed without the guide too. Guide over-asked: 4 to 5 intake questions on questions 6, 13, 18 |
+| 1 | 2026-10-15 | uncommitted work after `ec10235` (guide v2) | Intake cut to one question and answer first; new `notices.md` and `weekly-notices-prompt.md`; calendar items only when relevant (max 3); DIA and GIES office contacts added | A first test by a Vietnamese master's student: five questions up front, a headline list she couldn't use, unrelated calendar items appended, and she said a LINE bot would be better | Claude subagents: v2, v1, and no guide on 25 questions (6 new: news, events, first hello, office phone, weekly check). Web allowed only on the three news and events questions | All 25: v2 94%, v1 79%, no guide 55%. Old questions 1-19: v2 94%, v1 95% (no regression). New questions 20-25: v2 94%, v1 42%, no guide 45%. First hello went from 151 words to 23. Open: question 6 still asks three questions; question 14 dropped the 2027-01-08 thesis deadline (the "max 3 items" rule); question 24 reply too long (116 words); checks on questions 19 and 20 were outdated or vacuous and were fixed afterward |
 
 ## Decision rules
 

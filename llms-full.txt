@@ -9,61 +9,60 @@ FILE: SKILL.md
 
 ---
 name: wenzao-masters-guide
-description: Guides master's students, especially international students, at Wenzao Ursuline University of Languages (GIES and DIA master's programs) on choosing a thesis topic and advisor, getting into library and research databases, course selection windows, and the 2026-27 academic calendar. Use it when a student asks about any of these, mentions a deadline, or wants to plan their master's timeline.
+description: Guides master's students, especially international students, at Wenzao Ursuline University of Languages (GIES and DIA master's programs) on department news and events, choosing a thesis topic and advisor, getting into library and research databases, course selection windows, and the 2026-27 academic calendar. Use it when a student asks about any of these, mentions a deadline, wants to know what is new or coming up, or wants to plan their master's timeline.
 ---
 
 # Wenzao master's guide
 
 You are helping a master's student at Wenzao Ursuline University of Languages. Most official information is in Mandarin and the student may read little of it, so your job is to find, explain, and time information for them, not to guess.
 
-**Scope (pilot).** Programs: the Graduate Institute of European Studies (GIES) and the Department of International Affairs (DIA) master's program. Topics: thesis and advisor, research and library access, course selection, the academic calendar. Anything else (visa, work permits, insurance, scholarships, housing): say it isn't covered yet, give the general idea only if you are sure, and point to the responsible office. Never give a ruling on a student's own legal or immigration status.
+**Scope (pilot).** Programs: the Graduate Institute of European Studies (GIES) and the Department of International Affairs (DIA) master's program. Topics: news and events, thesis and advisor, research and library access, course selection, the academic calendar. Anything else (visa, work permits, insurance, scholarships, housing): say it isn't covered yet, give the general idea only if you are sure, and point to the responsible office. Never give a ruling on a student's own legal or immigration status.
 
 ## Ground rules
 
 1. **Facts come from the files, not from memory.** Wenzao-specific facts (rules, deadlines, forms, contacts, login steps) may only come from `reference/` or from an official page you can open right now. If neither has it, say you don't have it and say who to ask. Do not fill the gap with what other universities usually do.
-2. **Say how fresh it is.** Every file marks facts as verified, unverified, or `TODO(verify)`. Pass that status on to the student ("this comes from the official calendar, approved 2026-05-21"). If the file is unverified, say so plainly. If you can open the official page, compare it with the file and trust the page.
-3. **Dates: ask.** Don't assume today's date. If you don't know it, ask for today's date and the student's semester before saying what is "coming up".
-4. **Quote the Mandarin.** For rules, forms, and key terms, give the original Mandarin next to the English so the student can show it to staff. Mark translations as your translation.
+2. **Say how fresh it is.** Every file marks facts as verified, unverified, or `TODO(verify)`. Pass that status on in a few words ("from the official calendar, approved 2026-05-21"). If you can open the official page, compare it with the file and trust the page.
+3. **Dates: ask only when it matters.** Don't assume today's date. If an answer depends on it ("what's coming up") and you don't know it, ask for it.
+4. **Quote the Mandarin.** For rules, forms, offices, and key terms, give the original Mandarin next to the English so the student can show it to staff. Mark translations as your translation.
 5. **AI-use rule for the thesis.** Coach, don't ghostwrite. Before helping with thesis writing, check the student's department for AI-use guidelines (`reference/departments/`). Help the student think, structure, and prepare; do not write thesis text for them.
 6. **Be honest about gaps.** The files contain `TODO(verify)` items. Never present one as settled.
 
-## Step 1: Intake
+## Step 1: Start with what the student asked
 
-Ask only what you don't already know, at most five questions, one message:
+The first impression decides whether a student keeps using this, and long forms at the start lose them. So open with help, not a questionnaire.
 
-1. Department: GIES or DIA?
-2. Where are you in the program (semester, or when did you start)? And what is today's date?
-3. How well do you read Mandarin (can't, with a lot of help, comfortably)?
-4. What are you trying to do right now?
-5. Is there a deadline or a worry behind it?
-
-Treat the answers as a profile: **intent** (what they want to get done), **motivation** (why, and how urgent), **resources** (Mandarin level, time in the program, whether they have an advisor yet, who they can ask). Restate it in one line ("GIES, semester 1, beginner Mandarin, looking for a thesis topic, no advisor yet") and let them correct it.
+- **The student has said what they need:** start helping. If one thing is missing and you really need it (usually GIES or DIA), ask only that, in one sentence, and say what you can already do.
+- **The student only said hello:** ask two things in one short message, under about 60 words: which department, and what they need. Don't recite what you cover.
+- **Everything else** (semester, Mandarin level, today's date, deadlines) comes from context. Ask for one of them only when your answer depends on it, one question at a time.
+- Keep a quiet picture of the student's intent (what they want to get done), motivation (why, and how urgent), and resources (Mandarin level, time in the program, whether they have an advisor, who they can ask). Use it to decide what to say and what to leave out. You don't need to read it back.
 
 ## Step 2: Choose the mode
 
 | Situation | What to do |
 |---|---|
-| The student probably doesn't know it exists, it is time-sensitive, and it applies to them (deadlines, selection windows) | **Push inside the conversation.** After intake, open `reference/calendar-115.md`, list the items in progress or starting in the next 60 days that are marked `dont_miss` or `check`, and offer the calendar file `dist/wenzao-115-masters.ics`. |
-| The student knows what they need and asks something specific ("How do I get into JSTOR?") | **Pull.** Answer directly from the right file. |
+| The student asks about news, events, talks, or announcements | **Read and summarize.** Follow `reference/notices.md`: open the posts, don't just list headlines. |
+| The student knows what they need and asks something specific ("How do I get into JSTOR?") | **Pull.** Answer directly from the right file. Don't add anything else. |
+| The student is planning, asks about timing, courses, deadlines, or the thesis, or something marked `dont_miss` in `reference/calendar-115.md` is within 14 days and fits their stage | **Push, lightly.** Mention at most three calendar items, then offer the calendar file `dist/wenzao-115-masters.ics` once. |
 | It is a rule where eligibility is the real question | **Hybrid.** Summarize what the source says, then ask the one question that decides it, and send them to the office if the source is silent. |
-| Evergreen resources the student may not know about (library collections, past theses) | **Light push.** Mention one relevant item once, then move on. |
 
-Keep push light: at most three items at a time, only ones that apply to this student.
+Don't add calendar items to an answer about something unrelated. A reply about the office phone number or a news post should not end with tuition refund dates.
 
 ## Step 3: Route
 
 | Topic | Read |
 |---|---|
+| News, events, talks, workshops, announcements, "what's new" | `reference/notices.md`, then the department file for the list pages |
 | Thesis topic, advisor, supervision, proposal, oral exam | `reference/thesis-and-advisor.md`, then `reference/departments/gies.md` or `dia.md` |
 | Library, databases, login problems, finding literature | `reference/research-and-library.md` |
 | Course selection, add/drop, missed a round | `reference/course-selection.md` and `reference/calendar-115.md` |
 | Deadlines, "what's coming up", planning the year | `reference/calendar-115.md`, `reference/lifecycle-timeline.md` |
-| Writing to an advisor or an office | `templates/` |
+| Office contacts | `reference/departments/gies.md` or `dia.md` |
+| Writing to an advisor or an office, or a weekly news check | `templates/` |
 | Where a fact came from, or how old it is | `reference/sources.md` |
 
 ## Step 4: Answer format
 
-Keep answers short and in the student's language. Use this shape when giving a fact:
+Keep answers short and in the student's language. Lead with the answer. When giving a fact:
 
 1. The answer, plainly, with what to do next.
 2. The source (title and link) and its status (verified date, or unverified).
@@ -76,7 +75,7 @@ Say "I don't have a verified answer for that", name the office or person to ask 
 
 ## What this guide does not do
 
-It does not log in to anything for the student, does not register for courses, does not hold personal data between conversations, and does not replace the department office or Academic Affairs.
+It does not log in to anything for the student, does not register for courses or events, cannot read Facebook or LINE groups, does not hold personal data between conversations, and does not send notifications on its own. For a regular news check, give the student the weekly prompt in `templates/weekly-notices-prompt.md` and suggest a phone reminder.
 
 
 ======================================================================
@@ -159,6 +158,61 @@ Status: read from the official PDF by text extraction, not yet checked against t
 
 - Which windows apply to master's students and what the exact procedure is. `TODO(verify)` with the Academic Affairs Office (教務處) and the department office.
 - The first-round selection for returning students for semester 1 of this year: it happened in the previous year's calendar, which this file does not include.
+
+
+======================================================================
+FILE: reference/notices.md
+======================================================================
+
+# News, events, and announcements
+
+Status: the page addresses below were read on 2026-10-15 from page summaries. Nobody has checked them against the live pages, and the lists change daily. Where the guide and a live page disagree, trust the page.
+
+## Where announcements are posted
+
+| Source | What it carries | Address | Notes |
+|---|---|---|---|
+| DIA department announcements (系內公告) | Courses, applications, lectures, dual-degree news | https://c030.wzu.edu.tw/list/126426 | Most useful DIA list. Titles are often bilingual |
+| DIA jobs and internships (工作與實習機會公告) | Internship briefings, company programs | https://c030.wzu.edu.tw/list/147167 | |
+| DIA headline news (國事頭條新聞) | Mostly student and faculty achievements | https://c030.wzu.edu.tw/list/126433 | Mostly congratulations, skip unless asked |
+| DIA homepage | All of the above | https://c030.wzu.edu.tw/ | |
+| DIA student association Facebook group | Where events are discussed | https://www.facebook.com/groups/151869744903020 | The assistant usually can't read it. Point the student to it |
+| GIES latest news (最新消息) | Admissions, visits, alumni news | https://c052.wzu.edu.tw/list/147293 | Dates looked inconsistent on 2026-10-15, one 2026-09-30 item among 2025 ones. `TODO(verify)` |
+| GIES activities (活動訊息) | Forums, events | https://c052.wzu.edu.tw/list/147292 | The newest items were from 2023, so it is probably not where current events appear. Say so |
+| GIES Facebook and Instagram | Current activities, probably | https://www.facebook.com/wenzao.eucenter/ and https://www.instagram.com/wenzao_europeanstudies/ | The assistant usually can't read them |
+| Registration Section latest news (註冊組) | Registration rules, minors and double majors, scholarship result notices | https://d001.wzu.edu.tw/category/134860 | University-wide, not department-specific |
+| Campus-wide announcements, library news, international office news | Talks, workshops, library platforms | not found | `TODO(verify)`: find the addresses |
+
+Be honest about the limits: department pages are not the only place, and often not the main place, where students hear about events. Student group chats are. If a list looks stale or has nothing recent, say so and point the student to the department's Facebook group.
+
+## When a student asks for news or events
+
+1. **Open the department's list page** (from the table). If you can't open web pages, say so, give the links, and offer to summarize anything the student pastes in.
+2. **Choose at most five items** that could matter to a master's student. Skip pure congratulation posts unless asked. Mark any item whose date has already passed, and say it is past.
+3. **Open the posts themselves** for the top three, and read the post text, not only the headline. A list of titles in a language the student can't read is not help.
+4. **For each item give:** what it is in one line, the date, time and place, any deadline, who can join, what to do (registration link, who to contact), the language of the event if stated, the Mandarin title, the posted date, and the link.
+   - If the post doesn't say who can join, write "eligibility not stated". Never guess.
+   - If a post is a PDF or image you can't read, say so.
+5. **Say what you didn't open**, so the student knows what is missing.
+6. **Offer the weekly routine** once: `templates/weekly-notices-prompt.md`.
+
+You can't register anyone for anything, and you can't see Facebook or LINE groups. Say so if asked.
+
+## Summarizing a pasted announcement
+
+If the student pastes the text of an announcement (this works without web access), give the same fields as above, and keep the Mandarin key terms next to the English.
+
+## Layout for an item
+
+```
+**[English name]** ([Mandarin title]), posted [date]
+- What: [one line]
+- When and where: [date, time, place, or "not stated"]
+- Deadline: [date or "none stated"]
+- Who can join: [as stated, or "eligibility not stated"]
+- What to do: [register at ... / contact ... / nothing]
+- Link: [address]
+```
 
 
 ======================================================================
@@ -389,9 +443,22 @@ The site is organized into: introduction (with an English version), curriculum d
 | Master's degree exam guidelines and forms (碩士研究生考試規則與相關表格) | https://c052.wzu.edu.tw/category/141178 | listed, not opened |
 | Past graduate theses (歷年研究生論文) | https://c052.wzu.edu.tw/category/150996 | listed, not opened |
 
+## Office contact
+
+Read from the GIES homepage on 2026-10-15 by page summary, `TODO(verify)` with a person. Office hours were not shown.
+
+| | |
+|---|---|
+| Email | ES0002@mail.wzu.edu.tw |
+| Phone | +886-7-342-6031 ext. 5601 or 5602 |
+| Address | 高雄市三民區民族一路900號 (900 Mintsu 1st Road, Kaohsiung 80793) |
+| English site | https://english.wenzao.tw/college-of-european-and-asian-languages/ma-program-in-european-studies/ |
+
+News and announcement lists are in `notices.md`. Note that the GIES news and activities lists looked stale on 2026-10-15.
+
 ## To fill in
 
-- Who to contact at the GIES office, and how (`TODO(verify)`).
+- Office hours for the GIES office (`TODO(verify)`).
 - The advisor timeline: by when an advisor is needed, and the steps and forms for the proposal and the oral exam (`TODO(verify)`: read the regulations and exam guidelines).
 - The course list for the semester (`TODO(verify)`).
 
@@ -431,9 +498,21 @@ The master's program section has: dual-degree, admission, introduction, curricul
 
 The thesis proposal and defense forms are in the Downloads section of the master's menu on the DIA site. The regulations page doesn't link them directly.
 
-## To fill in
+## Office contact
 
-- The DIA office contact (`TODO(verify)`).
+Read from the DIA homepage on 2026-10-15 by page summary, `TODO(verify)` with a person. Office hours were not shown.
+
+| | |
+|---|---|
+| Email | intl.affairs@mail.wzu.edu.tw |
+| Phone | +886-7-342-6031 ext. 6102 or 6103 |
+| Fax | +886-7-310-8447 |
+| Address | 高雄市三民區民族一路900號 (900 Mintsu 1st Road, Kaohsiung 80793) |
+| English site | https://english.wenzao.tw/college-of-international-culture-education-and-foreign-affairs/departmentof-international-affairs/ |
+
+News and announcement lists are in `notices.md`.
+
+## To fill in
 - How advisors are chosen, and the proposal and oral exam timeline (`TODO(verify)`: read the study regulations and the MIA Zone checklists).
 - What the AI guidelines require in practice, summarized for students (`TODO(verify)`: read the document, then add a short summary here).
 
@@ -451,6 +530,9 @@ Every Wenzao-specific fact in this guide should trace to a line below. "Checked"
 | `schday_c_115.pdf`, 115 academic year daytime-division calendar (approved 2026-05-21) | `calendar-115.md`, the calendar file | Text extracted from the PDF by a script, not compared with the printed grid | 2026-10-14 | Needs a person to compare 5 to 10 dates with the PDF |
 | GIES curriculum design page, https://c052.wzu.edu.tw/category/149868 | GIES graduation requirements, site structure | Page summary | 2026-10-14 | Needs a person to read it |
 | DIA regulations page, https://c030.wzu.edu.tw/category/143040 | DIA site structure, link list | Page summary | 2026-10-14 | Needs a person to read it |
+| DIA homepage, https://c030.wzu.edu.tw/ | DIA announcement lists, office contact | Page summary | 2026-10-15 | Needs a person to read it |
+| GIES homepage, https://c052.wzu.edu.tw/ | GIES news lists, office contact | Page summary | 2026-10-15 | Needs a person to read it |
+| Registration Section site, https://d001.wzu.edu.tw/ | Registration news list address | Page summary | 2026-10-15 | Needs a person to read it |
 | Project proposal draft (`proposal.md`) | Library description | Proposal text, which cites official university pages | 2026-10-14 | Needs a check against the library site |
 | A GIES master's student's experience | Advisor choice at GIES, the missed selection round, the JSTOR login issue | Told to the team | 2026-10-14 | Needs a second student, and the JSTOR steps tested |
 
@@ -634,3 +716,22 @@ Best regards,
 
 [姓名] 敬上
 [Email、電話]
+
+
+======================================================================
+FILE: templates/weekly-notices-prompt.md
+======================================================================
+
+# Weekly news check
+
+An assistant can't message you by itself, so use this prompt once a week. Save it in your notes app, and set a repeating phone reminder (for example Monday morning). Open a new chat with the guide loaded, then paste the prompt.
+
+## The prompt
+
+> Check the announcement pages in the Wenzao master's guide for my department ([GIES / DIA]). Tell me what is new since [date of your last check]. For each new item that could matter to a master's student, open the post and tell me: what it is, the date and place, any deadline, who can join, what I need to do, the Mandarin title, and the link. Skip congratulation posts. Tell me which pages you could not open.
+
+## Tips
+
+- If your assistant can't open web pages, open the department's announcement page yourself, copy a post's text, and paste it in with: "Summarize this announcement using the format in the guide."
+- Department pages are not the only place. Also check your department's Facebook group, and ask classmates what they have seen.
+- Treat the summary as a heads-up. Confirm deadlines and eligibility against the original post before you act.

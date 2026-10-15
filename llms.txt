@@ -10,6 +10,7 @@ How to use: read SKILL.md first and follow it. Wenzao facts come only from the f
 
 ## Reference
 
+- [reference/notices.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/notices.md): Where news and events are posted, and how to summarize them
 - [reference/calendar-115.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/calendar-115.md): 2026-27 academic calendar with what to push and what to check
 - [reference/lifecycle-timeline.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/lifecycle-timeline.md): The master's timeline and what usually needs attention when
 - [reference/course-selection.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/course-selection.md): Course selection windows and what to do after missing a round
@@ -25,6 +26,7 @@ How to use: read SKILL.md first and follow it. Wenzao facts come only from the f
 - [templates/advisor-email.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/advisor-email.md): Email to a possible advisor, English and Mandarin
 - [templates/advisor-meeting-agenda.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/advisor-meeting-agenda.md): Agenda for advisor meetings
 - [templates/office-email-missed-selection.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/office-email-missed-selection.md): Email to the office after missing a selection round, English and Mandarin
+- [templates/weekly-notices-prompt.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/weekly-notices-prompt.md): A prompt to reuse once a week to check what is new
 
 ## Optional
 

@@ -8,7 +8,7 @@ The question is simple: **does an AI give better answers to a Wenzao master's st
 
 | File | What it is |
 |---|---|
-| `evals.json` | 19 realistic student questions, each with specific checks. The single source of truth |
+| `evals.json` | 25 realistic student questions, each with specific checks. The single source of truth |
 | `rubric.md` | The six-item score (F1 to F6) and a 1 to 5 helpfulness score |
 | `make_sheet.py` | Builds `questions.md` (readable list) and `run-sheet.csv` (blank scoring sheet) from `evals.json` |
 | `summarize_scores.py` | Turns a scored sheet into with-guide versus without-guide numbers |
@@ -44,7 +44,7 @@ This is the version that supports the claim "works with any AI".
    ```
    It prints each item's rate for each assistant and arm, the difference, and F1 on the trap questions.
 
-A full pass is 19 questions x 2 arms x 3 assistants = 114 answers. For a first round, run 2 assistants, or run the 8 questions flagged below, and expand if it looks promising.
+A full pass is 25 questions x 2 arms x 3 assistants = 150 answers. For a first round, run 2 assistants, or run the 8 questions flagged below, and expand if it looks promising.
 
 **A good first subset (8 questions):** 1, 3, 4, 7, 10, 11, 15, 19. It covers the calendar, the thesis, the library, a boundary, a verified fact, and three traps.
 
@@ -60,7 +60,7 @@ A full pass is 19 questions x 2 arms x 3 assistants = 114 answers. For a first r
 
 ## When to add questions
 
-The 19 questions are written by the team. Before the contest, replace some with real ones: ask 5 to 10 international master's students what they asked their AI (or would have), and use those words. Also add a question every time a real student's question exposes a gap.
+The 25 questions are written by the team. Before the contest, replace some with real ones: ask 5 to 10 international master's students what they asked their AI (or would have), and use those words. Also add a question every time a real student's question exposes a gap.
 
 ## Limits to be honest about
 

@@ -1,6 +1,6 @@
 # Wenzao master's guide
 
-A guide that any AI assistant can load to help master's students, especially international students, at Wenzao Ursuline University of Languages. It covers the GIES and DIA master's programs: thesis and advisor, research and library access, course selection, and the 2026-27 academic calendar.
+A guide that any AI assistant can load to help master's students, especially international students, at Wenzao Ursuline University of Languages. It covers the GIES and DIA master's programs: department news and events, thesis and advisor, research and library access, course selection, and the 2026-27 academic calendar.
 
 It is plain Markdown. It needs no particular AI provider, no tools, and no internet connection. If the assistant can browse, it can check the official pages. If it can't, it still works from the files.
 
@@ -16,12 +16,12 @@ It is plain Markdown. It needs no particular AI provider, no tools, and no inter
 | `data/calendar-115.json` | The calendar, as data. The single source of truth for dates |
 | `scripts/build.py` | Builds the calendar table, the `.ics` file, and the one-file bundle from the data |
 | `dist/` | Built files: `wenzao-115-masters.ics` (for students' calendars) and `wenzao-masters-guide-bundle.md` (everything in one file) |
-| `evals/` | 19 test questions, a scoring rubric, a scoring sheet, and a loop for improving the guide. Start with `evals/README.md` |
+| `evals/` | 25 test questions, a scoring rubric, a scoring sheet, and a loop for improving the guide. Start with `evals/README.md` |
 
 ## How a student uses it
 
 1. Load the guide into your AI assistant (see below).
-2. Ask your question. The assistant first asks a few questions about you (department, semester, today's date, Mandarin level, what you need).
+2. Ask your question. The assistant answers first and only asks what it needs (usually your department).
 3. Import `dist/wenzao-115-masters.ics` into your phone's calendar so the key dates, with reminders for the important ones, arrive without asking.
 
 ## Loading it into an assistant

@@ -27,8 +27,21 @@ The site is organized into: introduction (with an English version), curriculum d
 | Master's degree exam guidelines and forms (碩士研究生考試規則與相關表格) | https://c052.wzu.edu.tw/category/141178 | listed, not opened |
 | Past graduate theses (歷年研究生論文) | https://c052.wzu.edu.tw/category/150996 | listed, not opened |
 
+## Office contact
+
+Read from the GIES homepage on 2026-10-15 by page summary, `TODO(verify)` with a person. Office hours were not shown.
+
+| | |
+|---|---|
+| Email | ES0002@mail.wzu.edu.tw |
+| Phone | +886-7-342-6031 ext. 5601 or 5602 |
+| Address | 高雄市三民區民族一路900號 (900 Mintsu 1st Road, Kaohsiung 80793) |
+| English site | https://english.wenzao.tw/college-of-european-and-asian-languages/ma-program-in-european-studies/ |
+
+News and announcement lists are in `notices.md`. Note that the GIES news and activities lists looked stale on 2026-10-15.
+
 ## To fill in
 
-- Who to contact at the GIES office, and how (`TODO(verify)`).
+- Office hours for the GIES office (`TODO(verify)`).
 - The advisor timeline: by when an advisor is needed, and the steps and forms for the proposal and the oral exam (`TODO(verify)`: read the regulations and exam guidelines).
 - The course list for the semester (`TODO(verify)`).

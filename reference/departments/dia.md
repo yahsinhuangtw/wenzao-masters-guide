@@ -29,8 +29,20 @@ The master's program section has: dual-degree, admission, introduction, curricul
 
 The thesis proposal and defense forms are in the Downloads section of the master's menu on the DIA site. The regulations page doesn't link them directly.
 
-## To fill in
+## Office contact
 
-- The DIA office contact (`TODO(verify)`).
+Read from the DIA homepage on 2026-10-15 by page summary, `TODO(verify)` with a person. Office hours were not shown.
+
+| | |
+|---|---|
+| Email | intl.affairs@mail.wzu.edu.tw |
+| Phone | +886-7-342-6031 ext. 6102 or 6103 |
+| Fax | +886-7-310-8447 |
+| Address | 高雄市三民區民族一路900號 (900 Mintsu 1st Road, Kaohsiung 80793) |
+| English site | https://english.wenzao.tw/college-of-international-culture-education-and-foreign-affairs/departmentof-international-affairs/ |
+
+News and announcement lists are in `notices.md`.
+
+## To fill in
 - How advisors are chosen, and the proposal and oral exam timeline (`TODO(verify)`: read the study regulations and the MIA Zone checklists).
 - What the AI guidelines require in practice, summarized for students (`TODO(verify)`: read the document, then add a short summary here).

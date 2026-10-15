@@ -27,6 +27,7 @@ LLMS_LINKS = [
         ("SKILL.md", "Instructions: intake, push or pull, routing, answer format, rules"),
     ]),
     ("Reference", [
+        ("reference/notices.md", "Where news and events are posted, and how to summarize them"),
         ("reference/calendar-115.md", "2026-27 academic calendar with what to push and what to check"),
         ("reference/lifecycle-timeline.md", "The master's timeline and what usually needs attention when"),
         ("reference/course-selection.md", "Course selection windows and what to do after missing a round"),
@@ -41,6 +42,7 @@ LLMS_LINKS = [
         ("templates/advisor-email.md", "Email to a possible advisor, English and Mandarin"),
         ("templates/advisor-meeting-agenda.md", "Agenda for advisor meetings"),
         ("templates/office-email-missed-selection.md", "Email to the office after missing a selection round, English and Mandarin"),
+        ("templates/weekly-notices-prompt.md", "A prompt to reuse once a week to check what is new"),
     ]),
     ("Optional", [
         ("llms-full.txt", "Everything above in one file, for assistants that cannot follow links"),
@@ -50,6 +52,7 @@ LLMS_LINKS = [
 BUNDLE_ORDER = [
     "SKILL.md",
     "reference/calendar-115.md",
+    "reference/notices.md",
     "reference/lifecycle-timeline.md",
     "reference/course-selection.md",
     "reference/thesis-and-advisor.md",
@@ -61,6 +64,7 @@ BUNDLE_ORDER = [
     "templates/advisor-email.md",
     "templates/advisor-meeting-agenda.md",
     "templates/office-email-missed-selection.md",
+    "templates/weekly-notices-prompt.md",
 ]
 
 
