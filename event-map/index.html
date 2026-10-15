@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taiwan Event Map</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1d2327; --muted: #5d676f; --line: #dcdad2;
+    --accent: #0b6e69; --accent-ink: #ffffff; --warn: #9a5b00; --warn-bg: #fff3dc;
+    --chip: #ecebe4; --sel: #e3f1ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181a; --panel: #1c2124; --ink: #e8eaeb; --muted: #9aa5ab; --line: #333b40;
+      --accent: #4fc3bb; --accent-ink: #0b1a19; --warn: #f0b45a; --warn-bg: #3a2c12;
+      --chip: #2a3135; --sel: #1f3533;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Noto Sans TC", "PingFang TC", sans-serif; display: flex; flex-direction: column; }
+  header { padding: 12px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  h1 { font-size: 18px; margin: 0 0 2px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  header a { color: var(--accent); }
+  main { flex: 1; min-height: 0; display: grid; grid-template-columns: 400px 1fr; }
+  aside { display: flex; flex-direction: column; min-height: 0; border-right: 1px solid var(--line); background: var(--panel); }
+  .controls { padding: 10px 12px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; }
+  .controls input, .controls select { width: 100%; padding: 7px 9px; font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips button { font: inherit; font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--chip); color: var(--ink); cursor: pointer; }
+  .chips button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .count { font-size: 13px; color: var(--muted); }
+  #list { overflow-y: auto; flex: 1; }
+  .item { display: block; width: 100%; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 10px 12px; cursor: pointer; }
+  .item:hover { background: var(--sel); }
+  .item[aria-current="true"] { background: var(--sel); box-shadow: inset 3px 0 0 var(--accent); }
+  .item .t { font-weight: 600; }
+  .item .en { color: var(--muted); font-size: 13px; }
+  .item .meta { font-size: 13px; margin-top: 3px; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 7px; border-radius: 999px; background: var(--chip); margin-right: 4px; }
+  .tag.warn { background: var(--warn-bg); color: var(--warn); }
+  #map { height: 100%; min-height: 360px; }
+  details { border-top: 1px solid var(--line); padding: 8px 12px; font-size: 13px; }
+  details summary { cursor: pointer; font-weight: 600; }
+  details ul { margin: 6px 0 0; padding-left: 18px; }
+  .lbl { background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 12px; line-height: 1.3; max-width: 230px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; box-shadow: 0 1px 2px rgba(0,0,0,.25); }
+  .lbl::before { display: none; }
+  .lbl b { color: var(--accent); font-weight: 600; }
+  .lbl i { font-style: normal; color: var(--muted); }
+  .popup hr { border: 0; border-top: 1px solid #dcdad2; margin: 10px 0 8px; }
+  .popup .scroll { max-height: 280px; overflow-y: auto; padding-right: 4px; }
+  .popup h3 { margin: 0 0 2px; font-size: 15px; }
+  .popup .en { color: #5d676f; font-size: 12px; margin-bottom: 4px; }
+  .popup dl { margin: 6px 0 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; font-size: 13px; }
+  .popup dt { color: #5d676f; }
+  .popup dd { margin: 0; }
+  .popup .flag { margin-top: 6px; padding: 4px 6px; background: #fff3dc; color: #9a5b00; border-radius: 4px; font-size: 12px; }
+  footer { padding: 6px 16px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); background: var(--panel); }
+  footer a, .popup a { color: var(--accent); }
+  #error { padding: 16px; color: var(--warn); }
+  @media (max-width: 800px) {
+    main { grid-template-columns: 1fr; grid-template-rows: 55vh 1fr; }
+    aside { border-right: 0; border-top: 1px solid var(--line); order: 2; }
+    #map { order: 1; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Taiwan Event Map <span class="tag warn" style="vertical-align:middle">prototype</span></h1>
+  <p>Conferences, forums, workshops and lectures forwarded on the Wenzao school-wide announcement list, placed where they happen. Prototype, data as of <span id="asof">…</span>. <a href="../">← Back to the Wenzao master's guide</a></p>
+</header>
+<main>
+  <aside aria-label="Event list and filters">
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search title, organizer, venue" aria-label="Search events">
+      <div class="chips" role="group" aria-label="When">
+        <button type="button" data-when="all" aria-pressed="true">All</button>
+        <button type="button" data-when="30" aria-pressed="false">Next 30 days</button>
+        <button type="button" data-when="7" aria-pressed="false">Next 7 days</button>
+      </div>
+      <select id="city" aria-label="City"><option value="">All cities</option></select>
+      <select id="kind" aria-label="Type"><option value="">All types</option></select>
+      <div class="count" id="count" aria-live="polite"></div>
+    </div>
+    <div id="list"></div>
+    <details id="unmapped"><summary>Not on the map</summary><div id="unmapped-body"></div></details>
+  </aside>
+  <div id="map" role="region" aria-label="Map of Taiwan with event pins"></div>
+</main>
+<footer>
+  Student pilot, not an official Wenzao Ursuline University of Languages page. Fields were read from each post by hand/LLM and may be wrong: check the original post before you go. Pins are placed by OpenStreetMap search; “institution only” pins mark the university, not the room.
+  Map © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const TODAY = new Date('2026-10-15T00:00:00'); // data snapshot date; change to new Date() once the data is refreshed automatically
+const PRECISION = {
+  'address': ['Exact address', ''],
+  'venue-or-campus': ['Venue or campus', ''],
+  'institution': ['Institution only (approximate)', 'warn']
+};
+const KIND = { conference: 'Conference', forum: 'Forum', workshop: 'Workshop', lecture: 'Lecture', course: 'Course',
+  competition: 'Competition', launch: 'Launch event', 'info-session': 'Info session' };
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const postUrl = id => `https://a001.wzu.edu.tw/article/${id}`;
+
+let events = [], map, layer, places = [], eventPlace = new Map(), state = { q: '', when: 'all', city: '', kind: '' }, selected = null;
+
+function firstDate(ev) { return ev.sessions.map(s => s.date).filter(Boolean).sort()[0] || '9999'; }
+function fmtDate(s) {
+  if (!s.date) return 'date not stated';
+  const f = d => new Date(d + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+  return s.end_date && s.end_date !== s.date ? `${f(s.date)} – ${f(s.end_date)}` : f(s.date);
+}
+function daysFrom(d) { return Math.round((new Date(d + 'T00:00:00') - TODAY) / 864e5); }
+
+function matches(ev) {
+  const hay = [ev.title_zh, ev.title_en, ev.organizer, ...ev.sessions.map(s => s.venue_zh)].join(' ').toLowerCase();
+  if (state.q && !hay.includes(state.q.toLowerCase())) return false;
+  if (state.city && !ev.sessions.some(s => s.city === state.city)) return false;
+  if (state.kind && ev.kind !== state.kind) return false;
+  if (state.when !== 'all') {
+    const n = +state.when;
+    const ok = ev.sessions.some(s => s.date && daysFrom(s.end_date || s.date) >= 0 && daysFrom(s.date) <= n);
+    if (!ok) return false;
+  }
+  return true;
+}
+
+function popupHtml(ev, s) {
+  const p = s.geo ? PRECISION[s.geo.precision] : null;
+  const dl = [
+    ['When', `${fmtDate(s)}${s.time ? ', ' + esc(s.time) : ''}`],
+    ['Where', esc(s.venue_zh) + (s.address ? `<br>${esc(s.address)}` : '')],
+    ['Organizer', esc(ev.organizer)],
+    ['Format', esc(ev.format || 'not stated')],
+    ['Deadline', ev.deadline ? `${fmtDate({ date: ev.deadline })}${ev.deadline_note ? ' (' + esc(ev.deadline_note) + ')' : ''}` : 'none stated'],
+    ['Pin', p ? esc(p[0]) : 'none']
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+  const flags = (ev.flags || []).map(f => `<div class="flag">${esc(f)}</div>`).join('');
+  return `<div class="popup"><h3>${esc(ev.title_zh)}</h3><div class="en">${esc(ev.title_en)}</div><dl>${dl}</dl>${flags}<p><a href="${postUrl(ev.id)}" target="_blank" rel="noopener">Original post ↗</a></p></div>`;
+}
+
+function placeHtml(pl) {
+  return `<div class="scroll">${pl.items.map(i => popupHtml(i.ev, i.s)).join('<hr>')}</div>`;
+}
+
+// Hide labels that would overlap one already shown; soonest events get priority.
+function setSide(m, side) {
+  const tt = m.getTooltip();
+  tt.options.direction = side;
+  tt.options.offset = side === 'right' ? [10, -18] : [-10, -18];
+  m.closeTooltip(); m.openTooltip();
+}
+
+function declutter() {
+  const kept = [];
+  const box = map.getContainer().getBoundingClientRect();
+  const outside = r => r.left < box.left + 4 || r.right > box.right - 4 || r.top < box.top + 4 || r.bottom > box.bottom - 4;
+  const clashes = r => outside(r) || kept.some(k => r.left < k.right + 2 && r.right > k.left - 2 && r.top < k.bottom + 1 && r.bottom > k.top - 1);
+  places.forEach(pl => {
+    let placed = false;
+    for (const side of ['right', 'left']) {
+      setSide(pl.marker, side);
+      const el = pl.marker.getTooltip().getElement();
+      if (!el) return;
+      el.style.display = '';
+      const r = el.getBoundingClientRect();
+      if (!clashes(r)) { kept.push(r); placed = true; break; }
+    }
+    if (!placed) pl.marker.getTooltip().getElement().style.display = 'none';
+  });
+}
+
+function render() {
+  const shown = events.filter(matches);
+  layer.clearLayers();
+  places = [];
+  eventPlace.clear();
+  const byKey = new Map();
+  shown.forEach(ev => ev.sessions.forEach(s => {
+    if (!s.geo) return;
+    const key = s.geo.lat.toFixed(3) + ',' + s.geo.lon.toFixed(3);
+    if (!byKey.has(key)) byKey.set(key, { lat: s.geo.lat, lon: s.geo.lon, items: [] });
+    byKey.get(key).items.push({ ev, s });
+  }));
+  byKey.forEach(pl => {
+    pl.items.sort((a, b) => (a.s.date || '9999').localeCompare(b.s.date || '9999'));
+    const lead = pl.items[0];
+    const more = new Set(pl.items.map(i => i.ev.id)).size - 1;
+    const d = lead.s.date ? new Date(lead.s.date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) : '';
+    const title = lead.ev.title_en.length > 30 ? lead.ev.title_en.slice(0, 29) + '…' : lead.ev.title_en;
+    const label = `${d ? '<b>' + d + '</b> ' : ''}${esc(title)}${more > 0 ? ' <i>+' + more + ' more</i>' : ''}`;
+    const m = L.marker([pl.lat, pl.lon], { title: lead.ev.title_en, alt: lead.ev.title_en })
+      .bindTooltip(label, { permanent: true, direction: 'right', offset: [10, -18], className: 'lbl', interactive: true })
+      .bindPopup(placeHtml(pl), { maxWidth: 340 });
+    m.on('click', () => select(lead.ev.id, false));
+    pl.marker = m;
+    pl.items.forEach(i => { if (!eventPlace.has(i.ev.id)) eventPlace.set(i.ev.id, pl); });
+    layer.addLayer(m);
+    places.push(pl);
+  });
+  places.sort((a, b) => (a.items[0].s.date || '9999').localeCompare(b.items[0].s.date || '9999'));
+  if (!window._fitted && places.length) { window._fitted = true; map.fitBounds(places.map(p => [p.lat, p.lon]), { padding: [50, 50], maxZoom: 9 }); }
+  requestAnimationFrame(declutter);
+  $('count').textContent = `${shown.length} events, ${places.length} places on the map`;
+  $('list').innerHTML = shown.map(ev => {
+    const pinned = ev.sessions.filter(s => s.geo).length;
+    const warn = ev.sessions.some(s => s.geo && s.geo.precision === 'institution') ? '<span class="tag warn">approx. pin</span>' : '';
+    const unpinned = ev.sessions.some(s => !s.geo) ? '<span class="tag warn">no pin</span>' : '';
+    const dates = ev.sessions.map(fmtDate).filter((v, i, a) => a.indexOf(v) === i).join('; ');
+    return `<button class="item" data-id="${ev.id}"${selected === ev.id ? ' aria-current="true"' : ''}>
+      <div class="t">${esc(ev.title_zh)}</div><div class="en">${esc(ev.title_en)}</div>
+      <div class="meta"><span class="tag">${KIND[ev.kind] || ev.kind}</span>${esc(dates)}</div>
+      <div class="meta">${esc(ev.sessions.map(s => s.city).filter((v, i, a) => a.indexOf(v) === i).join(', '))} ${warn}${unpinned}</div></button>`;
+  }).join('') || '<p style="padding:12px">No events match.</p>';
+}
+
+function select(id, fly = true) {
+  selected = id;
+  document.querySelectorAll('.item').forEach(el => {
+    if (el.dataset.id === id) { el.setAttribute('aria-current', 'true'); if (!fly) el.scrollIntoView({ block: 'nearest' }); }
+    else el.removeAttribute('aria-current');
+  });
+  const pl = eventPlace.get(id);
+  if (fly && pl) {
+    map.flyTo([pl.lat, pl.lon], Math.max(map.getZoom(), 11), { duration: 0.6 });
+    map.once('moveend', () => pl.marker.openPopup());
+  }
+}
+
+async function init() {
+  map = L.map('map').setView([23.7, 120.95], 8);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap contributors' }).addTo(map);
+  layer = L.layerGroup().addTo(map);
+  map.on('zoomend', declutter);
+
+  let data;
+  try {
+    data = await (await fetch('data/events.json')).json();
+  } catch (e) {
+    $('list').innerHTML = '<div id="error">Could not load data/events.json. Open this page through a local web server (for example <code>python3 -m http.server</code>), not as a file.</div>';
+    return;
+  }
+  events = data.events.slice().sort((a, b) => firstDate(a).localeCompare(firstDate(b)));
+  $('asof').textContent = data.extracted;
+
+  const cities = [...new Set(events.flatMap(e => e.sessions.map(s => s.city)))].sort();
+  $('city').innerHTML += cities.map(c => `<option>${esc(c)}</option>`).join('');
+  const kinds = [...new Set(events.map(e => e.kind))].sort();
+  $('kind').innerHTML += kinds.map(k => `<option value="${k}">${KIND[k] || k}</option>`).join('');
+
+  const rows = [
+    ...(data.online || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_zh)}</a> <span class="tag">online · ${esc(o.dates.join(', '))}</span></li>`),
+    ...(data.no_venue || []).map(o => `<li><a href="${postUrl(o.id)}" target="_blank" rel="noopener">${esc(o.title_zh)}</a> <span class="tag warn">${esc(o.reason)}</span></li>`),
+    ...events.flatMap(e => e.sessions.filter(s => !s.geo).map(s => `<li><a href="${postUrl(e.id)}" target="_blank" rel="noopener">${esc(e.title_zh)}</a> <span class="tag warn">venue “${esc(s.venue_zh)}” not found on the map</span></li>`))
+  ];
+  $('unmapped-body').innerHTML = `<ul>${rows.join('')}</ul>`;
+  document.querySelector('#unmapped summary').textContent = `Not on the map (${rows.length})`;
+
+  $('q').addEventListener('input', e => { state.q = e.target.value.trim(); render(); });
+  $('city').addEventListener('change', e => { state.city = e.target.value; render(); });
+  $('kind').addEventListener('change', e => { state.kind = e.target.value; render(); });
+  document.querySelectorAll('[data-when]').forEach(b => b.addEventListener('click', () => {
+    state.when = b.dataset.when;
+    document.querySelectorAll('[data-when]').forEach(x => x.setAttribute('aria-pressed', x === b));
+    render();
+  }));
+  $('list').addEventListener('click', e => { const b = e.target.closest('.item'); if (b) select(b.dataset.id); });
+  render();
+}
+init();
+</script>
+</body>
+</html>

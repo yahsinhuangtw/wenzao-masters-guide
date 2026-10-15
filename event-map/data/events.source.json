@@ -1,0 +1,770 @@
+{
+ "extracted": "2026-10-15",
+ "source_list": "https://a001.wzu.edu.tw/list/147031",
+ "note": "Hand-extracted from the post text with WebFetch. A field is null when the post does not state it. city_inferred is true when the post gives no city and it was inferred from the venue name.",
+ "events": [
+  {
+   "id": "530800",
+   "kind": "lecture",
+   "title_zh": "歐洲四部曲之名校巡禮篇專題演講—走進思想家的國度",
+   "title_en": "EU Park talk: German universities and studying in Germany",
+   "organizer": "歐盟觀光文化經貿園區",
+   "posted": "2026-10-06",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-10-28",
+     "time": "15:10-17:00",
+     "venue_zh": "求真樓 Q002",
+     "address": "高雄市三民區民族一路900號",
+     "city": "高雄市",
+     "city_inferred": false,
+     "queries": [
+      "文藻外語大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530984",
+   "kind": "workshop",
+   "title_zh": "第三屆校史書寫工作坊",
+   "title_en": "3rd University History Writing Workshop",
+   "organizer": "國立成功大學博物館",
+   "posted": "2026-10-15",
+   "format": "hybrid",
+   "deadline": "2026-11-05",
+   "sessions": [
+    {
+     "date": "2026-11-13",
+     "time": "09:30-17:00",
+     "venue_zh": "勝利校區未來館3樓",
+     "address": null,
+     "city": "臺南市",
+     "city_inferred": true,
+     "queries": [
+      "成功大學 勝利校區",
+      "國立成功大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530981",
+   "kind": "course",
+   "title_zh": "職場辦公室的 AI 工具行銷運用與短影音拍攝製作班 第01期",
+   "title_en": "AI marketing and short-video course (cohort 1)",
+   "organizer": "南部科學園區產學協會",
+   "posted": "2026-10-15",
+   "format": null,
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-11-08",
+     "end_date": "2026-12-12",
+     "time": "09:00-12:00, 13:00-17:00",
+     "venue_zh": "國立成功大學自強校區 系統及船舶機電工程學系 5樓503電腦教室",
+     "address": null,
+     "city": "臺南市",
+     "city_inferred": true,
+     "queries": [
+      "成功大學 自強校區",
+      "國立成功大學"
+     ],
+     "note": "Meets 11/8, 11/15, 11/29, 12/6, 12/12"
+    }
+   ]
+  },
+  {
+   "id": "530973",
+   "kind": "conference",
+   "title_zh": "第十一屆中國文哲之當代詮釋國際學術研討會",
+   "title_en": "11th Intl Conf on Contemporary Interpretation of Chinese Philosophy and Literature",
+   "organizer": "國立臺北大學",
+   "posted": "2026-10-15",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-11-06",
+     "time": "09:30",
+     "venue_zh": "國立臺北大學三峽校區人文大樓 1F01 國際會議廳",
+     "address": "新北市三峽區大學路151號",
+     "city": "新北市",
+     "city_inferred": false,
+     "queries": [
+      "新北市三峽區大學路151號",
+      "國立臺北大學 三峽校區"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530971",
+   "kind": "conference",
+   "title_zh": "2026泛亞洲、東吳大學英文系暨中華民國英語文教師學會英語文教學國際研討會",
+   "title_en": "2026 Pan-Asia ELT conference (Soochow Univ. / ETA-ROC)",
+   "organizer": "東吳大學英文系",
+   "posted": "2026-10-15",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-11-13",
+     "time": null,
+     "venue_zh": "東吳大學外雙溪校區 R0905 英美文化教室 (workshop)",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "東吳大學 外雙溪校區",
+      "東吳大學",
+      "東吳大學 外雙溪"
+     ]
+    },
+    {
+     "date": "2026-11-14",
+     "end_date": "2026-11-15",
+     "time": null,
+     "venue_zh": "臺北劍潭青年活動中心 (conference)",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "劍潭青年活動中心"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530967",
+   "kind": "forum",
+   "title_zh": "「剛質潮汐Solid Tides」2026駁二浪宕計畫國際論壇",
+   "title_en": "Solid Tides international forum (Pier-2 Bonbon Wave Project)",
+   "organizer": "高雄市政府文化局",
+   "posted": "2026-10-15",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-10-24",
+     "end_date": "2026-10-25",
+     "time": null,
+     "venue_zh": "駁二藝術特區",
+     "address": null,
+     "city": "高雄市",
+     "city_inferred": true,
+     "queries": [
+      "駁二藝術特區"
+     ],
+     "note": "A third date, 2026-11-21, is also listed"
+    },
+    {
+     "date": "2026-11-21",
+     "time": null,
+     "venue_zh": "駁二藝術特區",
+     "address": null,
+     "city": "高雄市",
+     "city_inferred": true,
+     "queries": [
+      "駁二藝術特區"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530965",
+   "kind": "conference",
+   "title_zh": "2026 International Conference on Advanced Biomedical Sciences 臺灣國際創新生物醫學峰會",
+   "title_en": "2026 Intl Conf on Advanced Biomedical Sciences",
+   "organizer": "中國醫藥大學",
+   "posted": "2026-10-15",
+   "format": null,
+   "deadline": "2026-10-31",
+   "sessions": [
+    {
+     "date": "2026-11-07",
+     "end_date": "2026-11-08",
+     "time": null,
+     "venue_zh": "中國醫藥大學水湳校區卓越大樓B2國際會議廳",
+     "address": null,
+     "city": "臺中市",
+     "city_inferred": true,
+     "queries": [
+      "中國醫藥大學 水湳校區",
+      "中國醫藥大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530958",
+   "kind": "conference",
+   "title_zh": "2027追求高教卓越國際學術研討會",
+   "title_en": "2027 Intl Conf on Pursuing Excellence in Higher Education",
+   "organizer": "銘傳大學",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": "2026-12-18",
+   "deadline_note": "full-paper submission",
+   "sessions": [
+    {
+     "date": "2027-03-12",
+     "time": null,
+     "venue_zh": "銘傳大學桃園校區",
+     "address": null,
+     "city": "桃園市",
+     "city_inferred": true,
+     "queries": [
+      "銘傳大學 桃園校區",
+      "銘傳大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530954",
+   "kind": "conference",
+   "title_zh": "2026代間教育實踐學術研討會",
+   "title_en": "2026 Intergenerational Education Practice Symposium",
+   "organizer": "朝陽科技大學",
+   "posted": "2026-10-14",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-11-20",
+     "time": "09:00-17:00",
+     "venue_zh": "朝陽科技大學管理大樓3樓時選廳",
+     "address": "臺中市霧峰區吉峰東路168號",
+     "city": "臺中市",
+     "city_inferred": false,
+     "queries": [
+      "臺中市霧峰區吉峰東路168號",
+      "朝陽科技大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530951",
+   "kind": "launch",
+   "title_zh": "海洋素養及海洋職能數位平臺(TODA)上線發布會",
+   "title_en": "TODA marine-literacy platform launch",
+   "organizer": "國家海洋研究院",
+   "posted": "2026-10-14",
+   "format": "in-person",
+   "deadline": null,
+   "flags": [
+    "Post gives 11/4 as a Tuesday; 2026-11-04 is a Wednesday. Check the date."
+   ],
+   "sessions": [
+    {
+     "date": "2026-11-04",
+     "time": "10:00-12:00",
+     "venue_zh": "大臺南會展中心",
+     "address": null,
+     "city": "臺南市",
+     "city_inferred": true,
+     "queries": [
+      "大臺南會展中心"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530948",
+   "kind": "conference",
+   "title_zh": "2026中華民國通識教育學會年會暨學術研討會",
+   "title_en": "2026 General Education Society annual conference",
+   "organizer": "中華民國通識教育學會",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": "2026-11-30",
+   "sessions": [
+    {
+     "date": "2026-12-11",
+     "time": null,
+     "venue_zh": "中山醫學大學",
+     "address": null,
+     "city": "臺中市",
+     "city_inferred": true,
+     "queries": [
+      "中山醫學大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530944",
+   "kind": "competition",
+   "title_zh": "2026無限次元智慧醫療設計競賽 (決賽)",
+   "title_en": "2026 Smart Medical Design Competition (finals)",
+   "organizer": "國立中央大學生醫科學與工程學系",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": "2026-11-20",
+   "sessions": [
+    {
+     "date": "2026-12-11",
+     "time": "13:00-17:00",
+     "venue_zh": "中壢米堤大飯店",
+     "address": null,
+     "city": "桃園市",
+     "city_inferred": true,
+     "queries": [
+      "中壢米堤大飯店",
+      "Chungli Midi Hotel",
+      "米堤大飯店",
+      "中壢米堤大飯店 桃園市中壢區",
+      "Midi Hotel Zhongli"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530943",
+   "kind": "info-session",
+   "title_zh": "智慧機器人產業高階人才培訓計畫 高階人才甄選會",
+   "title_en": "Smart robotics talent program selection sessions",
+   "organizer": "工業技術研究院 / 國科會",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-10-29",
+     "time": "13:00-16:00",
+     "venue_zh": "國立清華大學創新育成中心 1樓正文廳 (新竹場)",
+     "address": null,
+     "city": "新竹市",
+     "city_inferred": true,
+     "queries": [
+      "清華大學 創新育成中心",
+      "國立清華大學"
+     ]
+    },
+    {
+     "date": "2026-11-02",
+     "time": "13:00-16:00",
+     "venue_zh": "國立中央大學產學營運中心 1樓新創交流空間 (桃園場)",
+     "address": null,
+     "city": "桃園市",
+     "city_inferred": true,
+     "queries": [
+      "中央大學 產學營運中心",
+      "國立中央大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530938",
+   "kind": "conference",
+   "title_zh": "「重塑教育文化-以對話邁向共好」國際學術研討會",
+   "title_en": "Intl Conf on reshaping educational culture through dialogue",
+   "organizer": "國立臺灣師範大學",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-11-14",
+     "end_date": "2026-11-15",
+     "time": null,
+     "venue_zh": "國立臺灣師範大學教育學院大樓2樓國際會議廳",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "國立臺灣師範大學 教育學院大樓",
+      "國立臺灣師範大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530930",
+   "kind": "conference",
+   "title_zh": "2026年體育運動與休閒學術研討會",
+   "title_en": "2026 Sports and Leisure Academic Conference",
+   "organizer": "國立臺南大學",
+   "posted": "2026-10-14",
+   "format": null,
+   "deadline": "2026-11-02",
+   "sessions": [
+    {
+     "date": "2026-12-19",
+     "time": null,
+     "venue_zh": "國立臺南大學誠正大樓 (B401、B307、B308會議室)",
+     "address": null,
+     "city": "臺南市",
+     "city_inferred": true,
+     "queries": [
+      "國立臺南大學",
+      "國立臺南大學 樹林街",
+      "國立臺南大學 本部校區",
+      "National University of Tainan"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530924",
+   "kind": "conference",
+   "title_zh": "重新想像師資教育：AI時代的教育創新、實踐智慧與專業認同 國際學術研討會",
+   "title_en": "Intl Conf: Reimagining teacher education in the AI era",
+   "organizer": "國立臺灣師範大學",
+   "posted": "2026-10-13",
+   "format": null,
+   "deadline": "2026-11-30",
+   "deadline_note": "abstract submission",
+   "sessions": [
+    {
+     "date": "2027-04-23",
+     "end_date": "2027-04-25",
+     "time": null,
+     "venue_zh": "政大公企中心",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "政大公企中心",
+      "國立政治大學 公企中心"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530910",
+   "kind": "forum",
+   "title_zh": "2027外語暨人文創意學院全國研究生論文發表暨研究論壇",
+   "title_en": "2027 national graduate paper forum (Providence Univ.)",
+   "organizer": "靜宜大學",
+   "posted": "2026-10-13",
+   "format": "in-person",
+   "deadline": "2027-03-26",
+   "deadline_note": "abstract submission",
+   "flags": [
+    "Event date not stated in the post."
+   ],
+   "sessions": [
+    {
+     "date": null,
+     "time": null,
+     "venue_zh": "靜宜大學伯鐸樓221",
+     "address": null,
+     "city": "臺中市",
+     "city_inferred": true,
+     "queries": [
+      "靜宜大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530904",
+   "kind": "forum",
+   "title_zh": "新北2026國際青年氣候論壇",
+   "title_en": "New Taipei 2026 Intl Youth Climate Forum",
+   "organizer": "新北市政府",
+   "posted": "2026-10-13",
+   "format": null,
+   "deadline": "2026-10-19",
+   "sessions": [
+    {
+     "date": "2026-10-22",
+     "time": "10:00-16:00",
+     "venue_zh": "板橋新板金融大樓17樓",
+     "address": "新北市板橋區中山路一段141號17樓",
+     "city": "新北市",
+     "city_inferred": false,
+     "queries": [
+      "新北市板橋區中山路一段141號",
+      "新板金融大樓"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530901",
+   "kind": "conference",
+   "title_zh": "2026台灣統計方法學學會年會暨學術研討會",
+   "title_en": "2026 Taiwan Statistical Methodology Society annual meeting",
+   "organizer": "台灣統計方法學學會",
+   "posted": "2026-10-13",
+   "format": null,
+   "deadline": "2026-12-02",
+   "sessions": [
+    {
+     "date": "2026-12-12",
+     "time": "09:00-17:00",
+     "venue_zh": "國立臺灣師範大學科學教育中心",
+     "address": "臺北市文山區汀州路四段88號",
+     "city": "臺北市",
+     "city_inferred": false,
+     "queries": [
+      "臺北市文山區汀州路四段88號",
+      "國立臺灣師範大學 科學教育中心",
+      "國立臺灣師範大學 公館校區",
+      "臺灣師範大學 公館"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530942",
+   "kind": "workshop",
+   "title_zh": "我要成為研究大師！AI學術寫作×期刊投稿實戰工作坊",
+   "title_en": "AI academic writing and journal submission workshop",
+   "organizer": "國立臺北大學",
+   "posted": "2026-10-13",
+   "format": null,
+   "deadline": "2026-12-05",
+   "sessions": [
+    {
+     "date": "2026-12-12",
+     "time": "10:00-17:00",
+     "venue_zh": "國立臺北大學合江校區自強大樓",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "國立臺北大學 合江校區",
+      "國立臺北大學 臺北校區"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530898",
+   "kind": "conference",
+   "title_zh": "第一屆通識英文教育暨語言教學研討會（GEELT 2027）",
+   "title_en": "GEELT 2027: 1st conf on general English education",
+   "organizer": "國立嘉義大學語言中心",
+   "posted": "2026-10-12",
+   "format": null,
+   "deadline": "2026-11-08",
+   "deadline_note": "abstract submission",
+   "sessions": [
+    {
+     "date": "2027-03-19",
+     "time": null,
+     "venue_zh": "國立嘉義大學蘭潭校區",
+     "address": null,
+     "city": "嘉義市",
+     "city_inferred": true,
+     "queries": [
+      "國立嘉義大學 蘭潭校區"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530896",
+   "kind": "conference",
+   "title_zh": "2026多元文化能力與諮商輔導實務國際研討會",
+   "title_en": "2026 Intl Conf on multicultural competence and counseling",
+   "organizer": "國立屏東大學",
+   "posted": "2026-10-12",
+   "format": null,
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-12-18",
+     "time": "08:40-17:00",
+     "venue_zh": "國立屏東大學民生校區五育樓國際會議廳",
+     "address": "屏東市民生路4-18號",
+     "city": "屏東縣",
+     "city_inferred": false,
+     "queries": [
+      "屏東市民生路4-18號",
+      "國立屏東大學 民生校區"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530893",
+   "kind": "lecture",
+   "title_zh": "「全球衛生與經濟韌性的改革」講座",
+   "title_en": "Lecture: reforming global health and economic resilience",
+   "organizer": "中央研究院",
+   "posted": "2026-10-12",
+   "format": "in-person",
+   "deadline": null,
+   "sessions": [
+    {
+     "date": "2026-10-19",
+     "time": "14:00",
+     "venue_zh": "中央研究院人文館3樓國際會議廳",
+     "address": null,
+     "city": "臺北市",
+     "city_inferred": true,
+     "queries": [
+      "中央研究院 人文社會科學館",
+      "中央研究院"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530885",
+   "kind": "conference",
+   "title_zh": "2026 韌性與管理國際研討會",
+   "title_en": "2026 Intl Conf on Resilience and Management",
+   "organizer": "國立清華大學韌性研究中心",
+   "posted": "2026-10-12",
+   "format": null,
+   "deadline": "2026-11-15",
+   "sessions": [
+    {
+     "date": "2026-11-26",
+     "end_date": "2026-11-27",
+     "time": null,
+     "venue_zh": "國立清華大學台積館九樓",
+     "address": null,
+     "city": "新竹市",
+     "city_inferred": true,
+     "queries": [
+      "國立清華大學 台積館",
+      "國立清華大學"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530884",
+   "kind": "lecture",
+   "title_zh": "法國古蹟保存建築師Renzo Wieder先生演講活動",
+   "title_en": "Lecture by French heritage architect Renzo Wieder",
+   "organizer": "文化部文化資產局",
+   "posted": "2026-10-12",
+   "format": "in-person",
+   "deadline": null,
+   "flags": [
+    "The post writes the city as 臺州市; no such city exists. The street address (南區復興路3段362號) matches 衡道堂 in Taichung."
+   ],
+   "sessions": [
+    {
+     "date": "2026-10-30",
+     "time": "10:00-12:00",
+     "venue_zh": "文化部文化資產園區衡道堂小禮堂",
+     "address": "臺州市南區復興路3段362號 (as written)",
+     "city": "臺中市",
+     "city_inferred": true,
+     "queries": [
+      "衡道堂",
+      "臺中市南區復興路三段362號"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "530881",
+   "kind": "lecture",
+   "title_zh": "AI時代學術倫理與研究責任之歐盟最近怎麼說",
+   "title_en": "Lecture: EU view on AI-era research ethics",
+   "organizer": "國立陽明交通大學人文與社會科學研究中心",
+   "posted": "2026-10-12",
+   "format": "in-person",
+   "deadline": "2026-10-23",
+   "sessions": [
+    {
+     "date": "2026-10-28",
+     "time": "13:30-16:30",
+     "venue_zh": "國立高雄師範大學和平校區活動中心2樓演講廳",
+     "address": "高雄市苓雅區和平一路116號",
+     "city": "高雄市",
+     "city_inferred": false,
+     "queries": [
+      "高雄市苓雅區和平一路116號",
+      "國立高雄師範大學 和平校區"
+     ]
+    }
+   ]
+  }
+ ],
+ "online": [
+  {
+   "id": "530829",
+   "title_zh": "TaiwanGPS海外人才分享會及鼓勵出國留遊學宣導說明會",
+   "organizer": "教育部",
+   "dates": [
+    "2026-10-14",
+    "2026-10-22"
+   ],
+   "note": "Google Meet"
+  },
+  {
+   "id": "530970",
+   "title_zh": "2026亞洲青年教育發展論壇：AI新時代：僑生教育的轉型與未來",
+   "organizer": "國立臺灣師範大學僑生先修部",
+   "dates": [
+    "2026-11-06"
+   ],
+   "note": "Google Meet"
+  },
+  {
+   "id": "530880",
+   "title_zh": "115年研究參與者保護倫理講習會(X)",
+   "organizer": "國立陽明交通大學",
+   "dates": [
+    "2026-11-10"
+   ],
+   "note": "Cisco Webex"
+  },
+  {
+   "id": "530918",
+   "title_zh": "Fundamentals of Communication 線上學術訓練工作坊",
+   "organizer": "中央研究院 / EMBO",
+   "dates": [
+    "2026-11-23",
+    "2026-11-27"
+   ],
+   "note": "online"
+  },
+  {
+   "id": "530912",
+   "title_zh": "研究倫理教育訓練線上課程",
+   "organizer": "國立清華大學",
+   "dates": [
+    "2026-11-10"
+   ],
+   "note": "online"
+  }
+ ],
+ "no_venue": [
+  {
+   "id": "530961",
+   "title_zh": "2026智慧生醫影像技術種子教師研習營",
+   "reason": "Details are in PDF attachments"
+  },
+  {
+   "id": "530927",
+   "title_zh": "合作事業國際論壇與工作坊",
+   "reason": "Details are in a PDF attachment"
+  },
+  {
+   "id": "530890",
+   "title_zh": "2026智慧永續循環技術研討會暨專題競賽",
+   "reason": "Date given, venue not stated"
+  },
+  {
+   "id": "530905",
+   "title_zh": "2027第9屆社會企業創業提案競賽",
+   "reason": "Competition, no venue or event date"
+  },
+  {
+   "id": "530907",
+   "title_zh": "2026年全國智慧運算與量子資訊創新應用競賽",
+   "reason": "Finals 2026-12-04, venue not stated"
+  },
+  {
+   "id": "530902",
+   "title_zh": "2026全國大專院校與高中職創新創意創業競賽",
+   "reason": "Competition, no venue or event date"
+  }
+ ]
+}
