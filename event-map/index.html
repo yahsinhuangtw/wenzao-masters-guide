@@ -244,7 +244,16 @@ function select(id, fly = true) {
 
 async function init() {
   map = L.map('map').setView([23.7, 120.95], 8);
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: 'Tiles © Esri, HERE, Garmin, OpenStreetMap contributors' }).addTo(map);
+  const esri = name => L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${name}/MapServer/tile/{z}/{y}/{x}`, { maxNativeZoom: 16, maxZoom: 18, attribution: 'Tiles © Esri, HERE, Garmin, OpenStreetMap contributors' });
+  const basemaps = {
+    light: L.layerGroup([esri('World_Light_Gray_Base'), esri('World_Light_Gray_Reference')]),
+    dark: L.layerGroup([esri('World_Dark_Gray_Base'), esri('World_Dark_Gray_Reference')])
+  };
+  const scheme = window.matchMedia('(prefers-color-scheme: dark)');
+  let activeBase = null;
+  const applyBase = () => { if (activeBase) map.removeLayer(activeBase); activeBase = basemaps[scheme.matches ? 'dark' : 'light']; activeBase.addTo(map); };
+  applyBase();
+  scheme.addEventListener('change', applyBase);
   layer = L.layerGroup().addTo(map);
   map.on('zoomend', declutter);
 
