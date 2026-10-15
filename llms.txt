@@ -1,0 +1,32 @@
+# Wenzao master's guide
+
+> A guide for AI assistants helping master's students, especially international students, at Wenzao Ursuline University of Languages (GIES and DIA master's programs): thesis and advisor, research and library access, course selection, and the 2026-27 academic calendar. Pilot draft: many Wenzao-specific facts are marked unverified or TODO(verify).
+
+How to use: read SKILL.md first and follow it. Wenzao facts come only from the files below; if they don't have an answer, say so and name who to ask. If you cannot follow links, use llms-full.txt, which contains all of the files.
+
+## Start here
+
+- [SKILL.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/SKILL.md): Instructions: intake, push or pull, routing, answer format, rules
+
+## Reference
+
+- [reference/calendar-115.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/calendar-115.md): 2026-27 academic calendar with what to push and what to check
+- [reference/lifecycle-timeline.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/lifecycle-timeline.md): The master's timeline and what usually needs attention when
+- [reference/course-selection.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/course-selection.md): Course selection windows and what to do after missing a round
+- [reference/thesis-and-advisor.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/thesis-and-advisor.md): Choosing a thesis topic and advisor, supervision, AI-use rule
+- [reference/research-and-library.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/research-and-library.md): Library access, known login issues (JSTOR), finding literature
+- [reference/departments/gies.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/departments/gies.md): GIES (Graduate Institute of European Studies): facts and links
+- [reference/departments/dia.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/departments/dia.md): DIA (Department of International Affairs) master's: facts and links
+- [reference/sources.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/reference/sources.md): Where each fact came from and how it was checked
+
+## Templates
+
+- [templates/thesis-topic-worksheet.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/thesis-topic-worksheet.md): One-page worksheet for narrowing a thesis topic
+- [templates/advisor-email.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/advisor-email.md): Email to a possible advisor, English and Mandarin
+- [templates/advisor-meeting-agenda.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/advisor-meeting-agenda.md): Agenda for advisor meetings
+- [templates/office-email-missed-selection.md](https://yahsinhuangtw.github.io/wenzao-masters-guide/templates/office-email-missed-selection.md): Email to the office after missing a selection round, English and Mandarin
+
+## Optional
+
+- [llms-full.txt](https://yahsinhuangtw.github.io/wenzao-masters-guide/llms-full.txt): Everything above in one file, for assistants that cannot follow links
+- [dist/wenzao-115-masters.ics](https://yahsinhuangtw.github.io/wenzao-masters-guide/dist/wenzao-115-masters.ics): Calendar file with the key dates, for the student's phone

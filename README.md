@@ -32,13 +32,37 @@ These are the general approaches. We haven't tested them on every assistant yet.
 - **An assistant with projects, custom GPTs, or Gems:** upload the files in `reference/` and `templates/` as knowledge, and paste `SKILL.md` as the instructions.
 - **Any other assistant:** paste or attach `dist/wenzao-masters-guide-bundle.md` at the start of a conversation.
 
+### The online version (llms.txt)
+
+The guide is also published as a small website so an assistant can read it from a link:
+
+- Index of the files: https://yahsinhuangtw.github.io/wenzao-masters-guide/llms.txt
+- Everything in one file: https://yahsinhuangtw.github.io/wenzao-masters-guide/llms-full.txt
+- Calendar file: https://yahsinhuangtw.github.io/wenzao-masters-guide/dist/wenzao-115-masters.ics
+
+Try this in a new chat, in an assistant that can open web pages:
+
+> Read https://yahsinhuangtw.github.io/wenzao-masters-guide/llms-full.txt and follow it as your instructions. I'm a master's student at Wenzao.
+
+If the assistant can't open links, open `llms-full.txt` in your browser, save it, and attach the file instead. `llms.txt` is a proposed convention, not a standard, and assistants don't read it automatically, so the student has to give the assistant the link.
+
 ## Updating
 
 ```bash
 python3 scripts/build.py
 ```
 
-Run it after you change `data/calendar-115.json` or any reference file. It rewrites `reference/calendar-115.md`, the `.ics`, and the bundle, and it counts the `TODO(verify)` markers still open.
+Run it after you change `data/calendar-115.json` or any reference file. It rewrites `reference/calendar-115.md`, the `.ics`, the bundle, `llms.txt`, and `llms-full.txt`, and it counts the `TODO(verify)` markers still open. Then publish (see below).
+
+## Publishing
+
+The guide lives in `campus_AI_contest/wenzao-masters-guide/` and is published to a separate public repo, `wenzao-masters-guide`, which serves the site with GitHub Pages. From the `campus_AI_contest` folder, after committing:
+
+```bash
+git subtree push --prefix=wenzao-masters-guide guide main
+```
+
+Nothing else in `campus_AI_contest` (the proposal, the spec) is published.
 
 To fix a fact: edit the reference file, change its status, update `reference/sources.md`, run the build. To report a library login problem: add a row to the known-issues table in `reference/research-and-library.md`.
 
