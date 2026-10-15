@@ -33,6 +33,7 @@ Be honest about the limits: department pages are not the only place, and often n
 4. **For each item give:** what it is in one line, the date, time and place, any deadline, who can join, what to do (registration link, who to contact), the language of the event if stated, the Mandarin title, the posted date, and the link.
    - If the post doesn't say who can join, write "eligibility not stated". Never guess.
    - If a post is a PDF or image you can't read, say so.
+   - Copy place and organization names exactly as the post gives them (campus, building, room, university). Don't substitute a similar name.
 5. **Say what you didn't open**, so the student knows what is missing.
 6. **Offer the weekly routine** once: `templates/weekly-notices-prompt.md`.
 
