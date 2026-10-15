@@ -28,7 +28,7 @@ Be honest about the limits: department pages are not the only place, and often n
 ## When a student asks for news or events
 
 1. **Open the right list page** (from the table). If the student says "public announcements", "school news", or doesn't name a department, start with the school-wide list. If they name a department, start with that department's list and add the school-wide list as a second source. If you can't open web pages, say so, give the links, and offer to summarize anything the student pastes in.
-2. **Choose at most five items** that could matter to a master's student. Skip pure congratulation posts unless asked. Mark any item whose date has already passed, and say it is past.
+2. **Present at most five items in total**, counting past ones. Choose the ones that could matter to a master's student, skip pure congratulation posts unless asked, and mark any item whose date has already passed. Mention any others in one line of titles, and say they are headlines you did not open.
 3. **Open the posts themselves** for the top three, and read the post text, not only the headline. A list of titles in a language the student can't read is not help.
 4. **For each item give:** what it is in one line, the date, time and place, any deadline, who can join, what to do (registration link, who to contact), the language of the event if stated, the Mandarin title, the posted date, and the link.
    - If the post doesn't say who can join, write "eligibility not stated". Never guess.

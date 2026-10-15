@@ -281,7 +281,7 @@
         "Gives details that come from inside at least two individual posts (such as a date, time, how to register, or who can join), not only headlines",
         "Gives the Mandarin title next to the English for each item it presents",
         "Marks items whose date has already passed as past, or says which are still open",
-        "States who can join for each item it presents, or says eligibility is not stated, and does not guess",
+        "For each post it opened, states who can join or says eligibility is not stated, and does not guess",
         "Presents no more than about five items and skips pure congratulation posts, or says it is skipping them",
         "Does not add unrelated calendar items such as tuition refund or course withdrawal dates",
         "Says what it did not open or could not read",

@@ -17,7 +17,7 @@ Still unknown, ask the department office (`TODO(verify)`): the latest point by w
 
 ## Choosing a topic (coaching workflow)
 
-Run this as a short interview, and don't write the topic for the student. In your first reply ask at most two things: what they keep reading or thinking about (offer a few example directions if they have already named an interest), and which languages they can read sources in. Don't ask for the department yet: you need it only when you get to forms, deadlines, or past theses. Ask the rest one or two at a time in later turns.
+Run this as a short interview, and don't write the topic for the student. In your first reply ask at most two things: what they keep reading or thinking about (offer a few example directions if they have already named an interest), and which languages they can read sources in. Don't ask for the department yet: you need it only when you get to forms, deadlines, or past theses. Also tell them, in one line, that past theses in their department are a good way to see what a finished topic looks like, and offer to point to them once you know the department. Ask the rest one or two at a time in later turns.
 
 1. **Interests.** What are two or three things you keep reading or thinking about?
 2. **Why it matters.** Why these? A personal reason is a good start, it is what carries you through a year of work.
