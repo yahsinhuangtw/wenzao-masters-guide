@@ -19,6 +19,7 @@
       <ul>
         <li><a href="#problem">Problem</a></li>
         <li><a href="#guide">The guide</a></li>
+        <li><a href="#flow">How it works</a></li>
         <li><a href="#try">Try it</a></li>
         <li><a href="#examples">Examples</a></li>
         <li><a href="#results">Results</a></li>
@@ -86,6 +87,42 @@
       </article>
     </div>
     <p>The idea of a guide written for the AI, with a rule to say when nothing was found, was inspired by <a href="https://openfun.tw/#dataplatform">OpenFun's data platform for Taiwan public data</a>. We applied it to one campus.</p>
+  </div>
+</section>
+
+<section id="flow" aria-labelledby="h-flow">
+  <div class="wrap">
+    <p class="eyebrow">How it works</p>
+    <h2 id="h-flow">What happens when a student asks a question</h2>
+    <figure class="flowfig">
+      <svg viewBox="0 0 360 512" role="img" aria-labelledby="flow-t flow-d" class="flowsvg">
+        <title id="flow-t">How a student uses the guide</title>
+        <desc id="flow-d">Step 1: you paste one message. Step 2: you ask in your own language (tested in English only). Step 3: the AI opens the right page: news, thesis, library, calendar or contacts. Then a decision: is the fact found in the guide or on an official page? If yes, you get a short answer with the source and the Mandarin term. If no, the AI says it does not have it, names the office to ask, and offers an email draft.</desc>
+        <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="ahead"/></marker></defs>
+        <g class="box"><rect x="40" y="8" width="280" height="54" rx="12"/><rect x="40" y="86" width="280" height="54" rx="12"/><rect x="40" y="164" width="280" height="84" rx="12"/></g>
+        <g class="t">
+          <text x="180" y="42" text-anchor="middle"><tspan class="n">1</tspan>  You paste one message</text>
+          <text x="180" y="112" text-anchor="middle"><tspan class="n">2</tspan>  You ask in your own language</text>
+          <text x="180" y="131" text-anchor="middle" class="sub">tested in English only</text>
+          <text x="180" y="194" text-anchor="middle"><tspan class="n">3</tspan>  The AI opens the right page</text>
+          <text x="180" y="219" text-anchor="middle" class="sub">news · thesis · library</text>
+          <text x="180" y="238" text-anchor="middle" class="sub">calendar · contacts</text>
+        </g>
+        <g class="line" marker-end="url(#ah)"><path d="M180 62V84" marker-end="url(#ah)"/><path d="M180 140V162" marker-end="url(#ah)"/><path d="M180 248V268" marker-end="url(#ah)"/></g>
+        <path class="dia" d="M60 318L180 268L300 318L180 368Z"/>
+        <text x="180" y="324" text-anchor="middle" class="t b">Fact found?</text>
+        <g class="line"><path d="M180 368V390"/><path d="M92 390H268"/><path d="M92 390V412" marker-end="url(#ah)"/><path d="M268 390V412" marker-end="url(#ah)"/></g>
+        <text x="130" y="383" text-anchor="middle" class="t sub">yes</text>
+        <text x="230" y="383" text-anchor="middle" class="t sub">no</text>
+        <rect class="box yes" x="8" y="414" width="168" height="90" rx="12"/>
+        <rect class="box no" x="184" y="414" width="168" height="90" rx="12"/>
+        <g class="t sm" text-anchor="middle">
+          <text x="92" y="446">Short answer,</text><text x="92" y="466">source, and the</text><text x="92" y="486">Mandarin term</text>
+          <text x="268" y="446">“I don't have that.”</text><text x="268" y="466">The office to ask,</text><text x="268" y="486">plus an email draft</text>
+        </g>
+      </svg>
+      <figcaption>Based on <a href="SKILL.md">SKILL.md</a>. The AI asks at most one thing first, only if it needs it. It never logs in, registers, or reads LINE groups for you.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -191,6 +228,7 @@ This was read from the DIA homepage on 2026-10-15 and hasn't been confirmed with
       <ul class="plain">
         <li>The testers were Claude subagents, each question run once, and the answers were graded by Claude. Differences of one check are noise.</li>
         <li>Later rounds changed the guide and re-ran only 10 questions each; they stayed around 90&ndash;95%.</li>
+        <li>All test questions were in English. The guide tells the assistant to answer in the student's language, but we have not tested other languages.</li>
         <li>The survey behind the problem is small (n = 48) and not limited to master's students.</li>
         <li>Many Wenzao facts in the guide are marked unverified or <code>TODO(verify)</code>. No university office has checked them yet.</li>
         <li>One real student tried the first version and found it too chatty and suggested a LINE bot. That led to the shorter start, the news module and the school-wide announcements. It is one person, not an evaluation.</li>

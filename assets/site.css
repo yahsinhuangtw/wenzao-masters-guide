@@ -69,3 +69,17 @@ th{background:var(--surface2)}
 footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
 footer strong{color:var(--text)}
 code{background:var(--code-bg);padding:.05rem .3rem;border-radius:4px;font-size:.92em}
+
+.flowfig{margin:1.5rem auto 0;max-width:30rem}
+.flowsvg{width:100%;height:auto;display:block;font-family:inherit}
+.flowsvg .box,.flowsvg rect.box{fill:var(--surface);stroke:var(--brand);stroke-width:2}
+.flowsvg .box.no{fill:var(--warn-bg);stroke:var(--warn-line)}
+.flowsvg .box.yes{fill:var(--surface2)}
+.flowsvg .dia{fill:var(--surface2);stroke:var(--brand);stroke-width:2}
+.flowsvg .t{fill:var(--text);font-size:17px;font-weight:600}
+.flowsvg .t.sm{font-size:15px;font-weight:500}
+.flowsvg .sub{fill:var(--muted);font-size:14px;font-weight:500}
+.flowsvg .n{fill:var(--accent);font-weight:800}
+.flowsvg .line path{fill:none;stroke:var(--brand);stroke-width:2}
+.flowsvg .ahead{fill:var(--brand)}
+.flowfig figcaption{color:var(--muted);font-size:.95rem;margin-top:.8rem}
