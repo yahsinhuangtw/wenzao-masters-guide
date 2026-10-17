@@ -17,7 +17,7 @@ python3 -m http.server 8766 -d wenzao-masters-guide   # then open /newsletter/
 | Source | Events | How |
 |---|---|---|
 | Wenzao announcement list (Prototype 3, `event-map/data/events.json`) | 31 | reused, then tagged and translated |
-| National Taiwan University pages | 4 | `scripts/scrape.py` saves page text to `data/raw/`; fields read by hand |
+| National Taiwan University pages | 4 | `scripts/scrape.py` saves page text to `data/raw/` (not committed); fields read by hand |
 | Academia Sinica (Institute of Economics seminars, Institute of Linguistics lectures and conferences) | 11 | same |
 
 `scripts/build_events.py` merges everything into `data/events.json` (topic tags, delivery language, EN/VI/JA titles and summaries). Rebuild with `python3 newsletter/scripts/build_events.py`.

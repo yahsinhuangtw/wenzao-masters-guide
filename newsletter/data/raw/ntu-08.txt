@@ -1,4 +1,0 @@
-URL: https://case.ntu.edu.tw/elementor-691/入口前的先行指南-探索講座第35期/
-LIST TITLE: 探索基礎科學系列講座 第35期【入口前的先行指南】~2026/10/17
-
-FETCH FAILED: 'ascii' codec can't encode characters in position 19-26: ordinal not in range(128)
