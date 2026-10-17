@@ -17,7 +17,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .skip:focus{left:0}
 .wrap{max-width:1160px;margin:0 auto;padding:0 16px}
 h1,h2,h3{line-height:1.25;margin:0 0 .5rem}
-h1{font-size:clamp(1.6rem,3.2vw+.6rem,2.5rem);max-width:28ch}
+h1{font-size:clamp(1.5rem,2.6vw+.6rem,2.1rem);max-width:30ch}
 h2{font-size:1.2rem}
 p{margin:0 0 .75rem}
 .eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 .3rem}
@@ -33,12 +33,14 @@ header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--b
 .seg button{border:0;background:transparent;color:var(--text);font:inherit;font-size:.9rem;padding:.35rem .85rem;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);font-weight:700}
 
-.hero{padding:2.2rem 0 1.4rem;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--surface2),var(--bg))}
+.hero{padding:1.4rem 0 1.2rem;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--surface2),var(--bg))}
 .pill{display:inline-block;font-size:.8rem;border:1px solid var(--warn-line);background:var(--warn-bg);color:var(--warn-ink);padding:.15rem .7rem;border-radius:999px;margin-bottom:.8rem}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:1.2rem}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1rem 1.1rem}
 .card p:last-child{margin-bottom:0}
 
+.hero .btns{margin-top:.9rem}
+.prefs,.out{scroll-margin-top:72px}
 .app{display:grid;grid-template-columns:340px minmax(0,1fr);gap:20px;padding-top:1.4rem;padding-bottom:2rem;align-items:start}
 .prefs{position:sticky;top:72px;max-height:calc(100vh - 88px);overflow:auto}
 fieldset{border:0;padding:0;margin:0 0 1rem}
