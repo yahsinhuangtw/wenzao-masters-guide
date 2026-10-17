@@ -1,0 +1,2079 @@
+{
+ "as_of": "2026-10-17",
+ "note": "Prototype 4 dataset. 'wzu-list' events come from Prototype 3 (Wenzao announcement list, read 2026-10-15); 'ntu' and 'sinica' events were read from public NTU and Academia Sinica pages on 2026-10-17. Fields a page does not state are null. Topic tags and the Vietnamese and Japanese text were written by Claude and are not independently verified.",
+ "topics": {
+  "ai": {
+   "en": "AI, data & statistics",
+   "vi": "AI, dữ liệu & thống kê",
+   "ja": "AI・データ・統計"
+  },
+  "lang": {
+   "en": "Language, humanities & arts",
+   "vi": "Ngôn ngữ, nhân văn & nghệ thuật",
+   "ja": "言語・人文・芸術"
+  },
+  "social": {
+   "en": "Society, law & economics",
+   "vi": "Xã hội, luật & kinh tế",
+   "ja": "社会・法・経済"
+  },
+  "health": {
+   "en": "Health & life sciences",
+   "vi": "Sức khỏe & khoa học đời sống",
+   "ja": "健康・生命科学"
+  },
+  "eng": {
+   "en": "Engineering & technology",
+   "vi": "Kỹ thuật & công nghệ",
+   "ja": "工学・技術"
+  },
+  "edu": {
+   "en": "Education & teaching",
+   "vi": "Giáo dục & giảng dạy",
+   "ja": "教育・教授法"
+  },
+  "env": {
+   "en": "Environment & sustainability",
+   "vi": "Môi trường & bền vững",
+   "ja": "環境・サステナビリティ"
+  },
+  "biz": {
+   "en": "Business & entrepreneurship",
+   "vi": "Kinh doanh & khởi nghiệp",
+   "ja": "ビジネス・起業"
+  },
+  "skills": {
+   "en": "Research skills & ethics",
+   "vi": "Kỹ năng nghiên cứu & đạo đức",
+   "ja": "研究スキル・倫理"
+  },
+  "career": {
+   "en": "Study abroad & careers",
+   "vi": "Du học & nghề nghiệp",
+   "ja": "留学・キャリア"
+  }
+ },
+ "kinds": {
+  "lecture": {
+   "en": "Lecture",
+   "vi": "Bài giảng",
+   "ja": "講演"
+  },
+  "workshop": {
+   "en": "Workshop",
+   "vi": "Hội thảo thực hành",
+   "ja": "ワークショップ"
+  },
+  "conference": {
+   "en": "Conference",
+   "vi": "Hội nghị",
+   "ja": "学会・会議"
+  },
+  "forum": {
+   "en": "Forum",
+   "vi": "Diễn đàn",
+   "ja": "フォーラム"
+  },
+  "seminar": {
+   "en": "Seminar",
+   "vi": "Seminar",
+   "ja": "セミナー"
+  },
+  "course": {
+   "en": "Course / training",
+   "vi": "Khóa học / đào tạo",
+   "ja": "講座・研修"
+  },
+  "launch": {
+   "en": "Launch event",
+   "vi": "Sự kiện ra mắt",
+   "ja": "発表会"
+  },
+  "competition": {
+   "en": "Competition",
+   "vi": "Cuộc thi",
+   "ja": "コンペ"
+  },
+  "info-session": {
+   "en": "Info session",
+   "vi": "Buổi giới thiệu",
+   "ja": "説明会"
+  },
+  "public": {
+   "en": "Public event",
+   "vi": "Sự kiện công chúng",
+   "ja": "公開イベント"
+  }
+ },
+ "cities": {
+  "Taipei": {
+   "en": "Taipei",
+   "vi": "Đài Bắc",
+   "ja": "台北"
+  },
+  "New Taipei": {
+   "en": "New Taipei",
+   "vi": "Tân Bắc",
+   "ja": "新北"
+  },
+  "Taoyuan": {
+   "en": "Taoyuan",
+   "vi": "Đào Viên",
+   "ja": "桃園"
+  },
+  "Hsinchu": {
+   "en": "Hsinchu",
+   "vi": "Tân Trúc",
+   "ja": "新竹"
+  },
+  "Taichung": {
+   "en": "Taichung",
+   "vi": "Đài Trung",
+   "ja": "台中"
+  },
+  "Chiayi": {
+   "en": "Chiayi",
+   "vi": "Gia Nghĩa",
+   "ja": "嘉義"
+  },
+  "Tainan": {
+   "en": "Tainan",
+   "vi": "Đài Nam",
+   "ja": "台南"
+  },
+  "Kaohsiung": {
+   "en": "Kaohsiung",
+   "vi": "Cao Hùng",
+   "ja": "高雄"
+  },
+  "Pingtung County": {
+   "en": "Pingtung County",
+   "vi": "Bình Đông",
+   "ja": "屏東"
+  }
+ },
+ "events": [
+  {
+   "id": "wzu-530893",
+   "source": "wzu-list",
+   "kind": "lecture",
+   "title": {
+    "orig": "「全球衛生與經濟韌性的改革」講座",
+    "en": "Academia Sinica Special Lecture: Reforming Global Health and Economic Resilience",
+    "vi": "Bài giảng đặc biệt của Academia Sinica: Cải cách y tế toàn cầu và khả năng chống chịu kinh tế",
+    "ja": "中央研究院 特別講演:世界の保健改革と経済のレジリエンス"
+   },
+   "organizer_en": "Academia Sinica",
+   "topics": [
+    "health",
+    "social"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-19",
+     "end_date": null,
+     "time": "14:00",
+     "venue_en": "International Conference Hall, 3F, Humanities Building, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "In-person special lecture at Academia Sinica's International Conference Hall in Nangang, Taipei.",
+    "vi": "Bài giảng đặc biệt trực tiếp tại Hội trường Hội nghị Quốc tế của Academia Sinica (Nam Cảng, Đài Bắc).",
+    "ja": "中央研究院(台北・南港)の国際会議ホールで行われる対面の特別講演。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530893",
+   "register_url": null
+  },
+  {
+   "id": "ntu-press-1019",
+   "source": "ntu",
+   "kind": "public",
+   "title": {
+    "orig": "臺大出版中心三十週年慶",
+    "en": "NTU Press 30th Anniversary: Panel on Thirty Years of Academic Publishing",
+    "vi": "Kỷ niệm 30 năm Nhà xuất bản NTU: Tọa đàm 30 năm xuất bản học thuật",
+    "ja": "台大出版センター30周年記念:学術出版30年を語る座談会"
+   },
+   "organizer_en": "NTU Press",
+   "topics": [
+    "lang",
+    "skills"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-19",
+     "end_date": null,
+     "time": "14:00-15:30",
+     "venue_en": "First Conference Hall, NTU Administration Building",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": "ntu",
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Panel with NTU professors on the past and future of academic publishing, followed by a tea reception.",
+    "vi": "Tọa đàm với các giáo sư NTU về quá khứ và tương lai của xuất bản học thuật, sau đó là tiệc trà giao lưu.",
+    "ja": "NTUの教授陣が学術出版の過去と未来を語る座談会。終了後に茶話会あり。"
+   },
+   "note": null,
+   "url": "https://press.ntu.edu.tw/tw/news/show.php?refer=news2026.09.14-1",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1019",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "語料庫語言學與兒童語音發展研究",
+    "en": "Corpus Linguistics and Children's Speech Development",
+    "vi": "Ngôn ngữ học ngữ liệu và sự phát triển giọng nói của trẻ em",
+    "ja": "コーパス言語学と子どもの音声発達研究"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang",
+    "health"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-19",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Room 519, Humanities and Social Sciences Building (South Wing), Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "zh",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Talk by the institute's director on speech-development measures drawn from two corpora of Taiwan Mandarin child speech.",
+    "vi": "Bài nói chuyện của viện trưởng về các chỉ số phát triển giọng nói rút ra từ hai kho ngữ liệu tiếng Hoa phổ thông của trẻ em Đài Loan.",
+    "ja": "所長が、台湾華語の子どもの音声コーパス2つから得た音声発達の指標を紹介する講演。"
+   },
+   "note": null,
+   "url": "https://www.ling.sinica.edu.tw/main/zh-tw?/sign/1019",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530904",
+   "source": "wzu-list",
+   "kind": "forum",
+   "title": {
+    "orig": "新北2026國際青年氣候論壇",
+    "en": "New Taipei 2026 International Youth Climate Forum",
+    "vi": "Diễn đàn quốc tế thanh niên về khí hậu Tân Bắc 2026",
+    "ja": "新北2026 国際ユース気候フォーラム"
+   },
+   "organizer_en": "New Taipei City Government",
+   "topics": [
+    "env"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-22",
+     "end_date": null,
+     "time": "10:00-16:00",
+     "venue_en": "17F, Xinban Financial Building, Banqiao",
+     "city_en": "New Taipei"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": "2026-10-19",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Youth climate forum hosted by the New Taipei City Government.",
+    "vi": "Diễn đàn thanh niên về khí hậu do Chính quyền thành phố Tân Bắc tổ chức.",
+    "ja": "新北市政府が主催する、若者向けの気候フォーラム。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530904",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530829",
+   "source": "wzu-list",
+   "kind": "info-session",
+   "title": {
+    "orig": "TaiwanGPS海外人才分享會及鼓勵出國留遊學宣導說明會",
+    "en": "TaiwanGPS Overseas Talent Sharing and Study-Abroad Briefing",
+    "vi": "Buổi chia sẻ nhân tài hải ngoại TaiwanGPS và giới thiệu du học",
+    "ja": "TaiwanGPS 海外人材シェアリング&留学説明会"
+   },
+   "organizer_en": "Ministry of Education",
+   "topics": [
+    "career"
+   ],
+   "format": "online",
+   "sessions": [
+    {
+     "date": "2026-10-22",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Google Meet",
+     "city_en": null
+    }
+   ],
+   "area": "online",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Online session by the Ministry of Education about overseas talent and studying abroad (Google Meet).",
+    "vi": "Buổi trực tuyến do Bộ Giáo dục tổ chức về nhân tài hải ngoại và du học (Google Meet).",
+    "ja": "教育部によるオンライン説明会。海外人材と留学がテーマ(Google Meet)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530829",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1022",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "Austro-Tai Cultural History: Implication from Kra-Dai and Austronesian lexical comparisons",
+    "en": "Austro-Tai Cultural History: Implications from Kra-Dai and Austronesian Lexical Comparisons",
+    "vi": "Lịch sử văn hóa Austro-Tai: Hàm ý từ so sánh từ vựng Kra-Dai và Nam Đảo",
+    "ja": "オーストロ・タイ文化史:クラ・ダイ語とオーストロネシア語の語彙比較からの示唆"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-22",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Room 525, Institute of Linguistics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Historical-linguistics talk on shared Kra-Dai and Austronesian vocabulary and what it says about early cultures.",
+    "vi": "Bài nói chuyện về ngôn ngữ học lịch sử: từ vựng chung giữa Kra-Dai và Nam Đảo cho biết gì về các nền văn hóa sơ khai.",
+    "ja": "クラ・ダイ語とオーストロネシア語に共通する語彙から初期の文化を探る、歴史言語学の講演。"
+   },
+   "note": null,
+   "url": "https://www.ling.sinica.edu.tw/main/zh-tw?/sign/www.ling.sinica.edu.tw/austrotai",
+   "register_url": null
+  },
+  {
+   "id": "ntu-ethics-1023",
+   "source": "ntu",
+   "kind": "lecture",
+   "title": {
+    "orig": "【學術倫理講座】運動科學研究與學術倫理的平衡羅盤",
+    "en": "Academic Ethics Lecture: Balancing Sports-Science Research and Research Ethics",
+    "vi": "Tọa đàm đạo đức học thuật: Cân bằng giữa nghiên cứu khoa học thể thao và đạo đức nghiên cứu",
+    "ja": "学術倫理講座:スポーツ科学研究と学術倫理のバランス"
+   },
+   "organizer_en": "NTU Center for General Education",
+   "topics": [
+    "skills",
+    "health"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-23",
+     "end_date": null,
+     "time": "14:20-16:20",
+     "venue_en": "Room R248, 2F, NTU Sports Center (main campus)",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": "ntu",
+   "deadline": null,
+   "language": {
+    "value": "zh",
+    "basis": "stated"
+   },
+   "blurb": {
+    "en": "Counts as 2 hours in category 4 of the academic-ethics requirement (master's and PhD students admitted from academic year 107, i.e. 2018, need at least 3 categories and 6 hours). No live stream; 50 seats.",
+    "vi": "Tính là 2 giờ thuộc nhóm 4 của yêu cầu đạo đức học thuật (học viên thạc sĩ và tiến sĩ nhập học từ năm học 107, tức 2018, cần ít nhất 3 nhóm và 6 giờ). Không phát trực tuyến; 50 chỗ.",
+    "ja": "学術倫理の必修要件のうち第4分類の2時間として認められる(民国107学年度=2018年度以降入学の修士・博士は3分類6時間以上が必要)。ライブ配信なし、定員50名。"
+   },
+   "note": {
+    "en": "Registration runs through NTU's own activity system. The page does not say whether students from other schools may attend.",
+    "vi": "Đăng ký qua hệ thống hoạt động riêng của NTU. Trang không nói rõ sinh viên trường khác có được tham dự hay không.",
+    "ja": "申込みはNTU独自の活動登録システム経由。他大学の学生が参加できるかはページに記載なし。"
+   },
+   "url": "https://cge.ntu.edu.tw/News_Content_n_68407_s_266461.html",
+   "register_url": "https://my.ntu.edu.tw/actregister/sessionList.aspx?actID=20263700_15"
+  },
+  {
+   "id": "wzu-530967",
+   "source": "wzu-list",
+   "kind": "forum",
+   "title": {
+    "orig": "「剛質潮汐Solid Tides」2026駁二浪宕計畫國際論壇",
+    "en": "Solid Tides International Forum (Pier-2 Bonbon Wave Project)",
+    "vi": "Diễn đàn quốc tế Solid Tides (Dự án Bonbon Wave, Pier-2)",
+    "ja": "Solid Tides 国際フォーラム(駁二ボンボン・ウェーブ計画)"
+   },
+   "organizer_en": "Kaohsiung City Government, Bureau of Cultural Affairs",
+   "topics": [
+    "lang"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-24",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Pier-2 Art Center",
+     "city_en": "Kaohsiung"
+    },
+    {
+     "date": "2026-11-21",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Pier-2 Art Center",
+     "city_en": "Kaohsiung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Forum at the Pier-2 Art Center in Kaohsiung, on two dates (24 Oct and 21 Nov).",
+    "vi": "Diễn đàn tại Pier-2 Art Center (Cao Hùng), diễn ra hai ngày: 24/10 và 21/11.",
+    "ja": "高雄の駁二芸術特区で2回開催(10月24日と11月21日)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530967",
+   "register_url": null
+  },
+  {
+   "id": "ntu-elid-1027",
+   "source": "ntu",
+   "kind": "conference",
+   "title": {
+    "orig": "ELiD 2026 內溶小體離子通道與疾病國際研討會",
+    "en": "ELiD 2026: International Symposium on Endolysosomal Ion Channels and Disease",
+    "vi": "ELiD 2026: Hội thảo quốc tế về kênh ion nội-lysosome và bệnh tật",
+    "ja": "ELiD 2026:エンドリソソームのイオンチャネルと疾患に関する国際シンポジウム"
+   },
+   "organizer_en": "National Taiwan University",
+   "topics": [
+    "health"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-27",
+     "end_date": null,
+     "time": null,
+     "venue_en": null,
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": "ntu",
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Biomedical symposium listed on NTU's homepage. We could not open the event page, so venue, time and language are not confirmed.",
+    "vi": "Hội thảo y sinh được đăng trên trang chủ NTU. Chúng tôi không mở được trang sự kiện nên địa điểm, giờ và ngôn ngữ chưa được xác nhận.",
+    "ja": "NTUのトップページに掲載された生物医学のシンポジウム。イベントページを開けなかったため、会場・時間・言語は未確認。"
+   },
+   "note": {
+    "en": "Only the title and date come from NTU's homepage list.",
+    "vi": "Chỉ có tiêu đề và ngày lấy từ danh sách trên trang chủ NTU.",
+    "ja": "タイトルと日付のみNTUのトップページの一覧から取得。"
+   },
+   "url": "https://www.mc.ntu.edu.tw/clsmb/News.action?q_type=-1&q_itemCode=12305",
+   "register_url": null
+  },
+  {
+   "id": "as-ieas-1027",
+   "source": "sinica",
+   "kind": "seminar",
+   "title": {
+    "orig": "【Metrics/Empirical Seminar】Are Public School Teachers Overpaid? Regression Discontinuity Evidence from a Ranked Waitlist in Kenya",
+    "en": "Are Public School Teachers Overpaid? Regression Discontinuity Evidence from a Ranked Waitlist in Kenya",
+    "vi": "Giáo viên trường công có được trả lương quá cao? Bằng chứng hồi quy gián đoạn từ danh sách chờ xếp hạng ở Kenya",
+    "ja": "公立学校の教員は高給すぎるのか?ケニアの順位付き待機リストを用いた回帰不連続デザインの証拠"
+   },
+   "organizer_en": "Institute of Economics, Academia Sinica",
+   "topics": [
+    "social"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-27",
+     "end_date": null,
+     "time": "14:30",
+     "venue_en": "Conference Room B110, Institute of Economics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Seminar by Prof. Tessa Bold (Stockholm University) on the civil-service wage premium of Kenyan teachers.",
+    "vi": "Seminar do GS. Tessa Bold (Đại học Stockholm) trình bày về mức chênh lệch lương công chức của giáo viên Kenya.",
+    "ja": "Tessa Bold教授(ストックホルム大学)が、ケニアの教員の公務員賃金プレミアムを論じるセミナー。"
+   },
+   "note": null,
+   "url": "https://www.econ.sinica.edu.tw/4d49b1b1-d551-4956-84a5-6bbf392d8417/posts/8500",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530800",
+   "source": "wzu-list",
+   "kind": "lecture",
+   "title": {
+    "orig": "歐洲四部曲之名校巡禮篇專題演講—走進思想家的國度",
+    "en": "EU Park talk: German universities and studying in Germany",
+    "vi": "Tọa đàm EU Park: Các trường đại học Đức và du học tại Đức",
+    "ja": "EUパーク講演:ドイツの大学とドイツ留学"
+   },
+   "organizer_en": "EU Tourism, Culture and Trade Park (Wenzao)",
+   "topics": [
+    "career",
+    "edu"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-28",
+     "end_date": null,
+     "time": "15:10-17:00",
+     "venue_en": "Room Q002, Qiuzhen Building (Wenzao campus)",
+     "city_en": "Kaohsiung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Talk on German universities and studying in Germany, held on the Wenzao campus in Kaohsiung.",
+    "vi": "Buổi nói chuyện về các trường đại học Đức và du học Đức, tổ chức tại khuôn viên Wenzao (Cao Hùng).",
+    "ja": "ドイツの大学とドイツ留学についての講演。会場は高雄の文藻外語大学。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530800",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530881",
+   "source": "wzu-list",
+   "kind": "lecture",
+   "title": {
+    "orig": "AI時代學術倫理與研究責任之歐盟最近怎麼說",
+    "en": "Lecture: An EU View on Research Ethics in the AI Era",
+    "vi": "Bài giảng: Góc nhìn của EU về đạo đức nghiên cứu trong kỷ nguyên AI",
+    "ja": "講演:AI時代の研究倫理 — EUの視点"
+   },
+   "organizer_en": "National Yang Ming Chiao Tung University, Center for Humanities and Social Sciences Research",
+   "topics": [
+    "skills",
+    "ai"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-28",
+     "end_date": null,
+     "time": "13:30-16:30",
+     "venue_en": "Lecture hall, 2F, Activity Center, Heping Campus, National Kaohsiung Normal University",
+     "city_en": "Kaohsiung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-10-23",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "In-person lecture on research ethics in the AI era. Organized by NYCU; the venue is at National Kaohsiung Normal University.",
+    "vi": "Bài giảng trực tiếp về đạo đức nghiên cứu trong kỷ nguyên AI. Do NYCU tổ chức; địa điểm tại Đại học Sư phạm Quốc lập Cao Hùng.",
+    "ja": "AI時代の研究倫理についての対面講演。主催は陽明交通大学、会場は国立高雄師範大学。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530881",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530943",
+   "source": "wzu-list",
+   "kind": "info-session",
+   "title": {
+    "orig": "智慧機器人產業高階人才培訓計畫 高階人才甄選會",
+    "en": "Smart Robotics Talent Program: Selection Sessions",
+    "vi": "Buổi tuyển chọn chương trình nhân tài robot thông minh",
+    "ja": "スマートロボット人材育成プログラム 選抜説明会"
+   },
+   "organizer_en": "Industrial Technology Research Institute (ITRI) for the National Science and Technology Council",
+   "topics": [
+    "eng",
+    "ai",
+    "career"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-29",
+     "end_date": null,
+     "time": "13:00-16:00",
+     "venue_en": "Zhengwen Hall, 1F, Innovation Incubation Center, National Tsing Hua University (Hsinchu session)",
+     "city_en": "Hsinchu"
+    },
+    {
+     "date": "2026-11-02",
+     "end_date": null,
+     "time": "13:00-16:00",
+     "venue_en": "Startup exchange space, 1F, Industry-Academia Operations Center, National Central University (Taoyuan session)",
+     "city_en": "Taoyuan"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Information and selection sessions for a smart-robotics talent program, run by ITRI for the National Science and Technology Council. Two dates, in Hsinchu and Taoyuan.",
+    "vi": "Các buổi giới thiệu và tuyển chọn cho chương trình nhân tài robot thông minh, do ITRI thực hiện cho Hội đồng Khoa học và Công nghệ Quốc gia. Hai ngày: Tân Trúc và Đào Viên.",
+    "ja": "スマートロボット人材育成プログラムの説明・選抜会。工業技術研究院(ITRI)が国家科学及技術委員会のために実施。新竹と桃園の2回。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530943",
+   "register_url": null
+  },
+  {
+   "id": "as-ieas-1029",
+   "source": "sinica",
+   "kind": "seminar",
+   "title": {
+    "orig": "【Empirical Seminar】Scaling Care, Saving Lives: Evidence from an Iterative Trial in Uganda",
+    "en": "Scaling Care, Saving Lives: Evidence from an Iterative Trial in Uganda",
+    "vi": "Mở rộng chăm sóc, cứu sống người bệnh: Bằng chứng từ thử nghiệm lặp tại Uganda",
+    "ja": "ケアの拡大と命を救うこと:ウガンダの反復試験からの証拠"
+   },
+   "organizer_en": "Institute of Economics, Academia Sinica",
+   "topics": [
+    "social",
+    "health"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-10-29",
+     "end_date": null,
+     "time": "14:30",
+     "venue_en": "Conference Room B110, Institute of Economics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Seminar by Prof. Jakob Svensson (Stockholm University) on scaling up a community health worker program in Uganda.",
+    "vi": "Seminar do GS. Jakob Svensson (Đại học Stockholm) về việc mở rộng chương trình nhân viên y tế cộng đồng ở Uganda.",
+    "ja": "Jakob Svensson教授(ストックホルム大学)が、ウガンダの地域保健ワーカー事業の拡大について論じるセミナー。"
+   },
+   "note": null,
+   "url": "https://www.econ.sinica.edu.tw/4d49b1b1-d551-4956-84a5-6bbf392d8417/posts/8501",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530884",
+   "source": "wzu-list",
+   "kind": "lecture",
+   "title": {
+    "orig": "法國古蹟保存建築師Renzo Wieder先生演講活動",
+    "en": "Lecture by French Heritage Architect Renzo Wieder",
+    "vi": "Bài giảng của kiến trúc sư di sản người Pháp Renzo Wieder",
+    "ja": "フランスの文化遺産建築家 Renzo Wieder 氏の講演"
+   },
+   "organizer_en": "Ministry of Culture, Bureau of Cultural Heritage",
+   "topics": [
+    "lang"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-10-30",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Small auditorium, Hengdao Hall, Cultural Heritage Park, Ministry of Culture",
+     "city_en": "Taichung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "In-person lecture hosted by the Bureau of Cultural Heritage, Ministry of Culture, in Taichung.",
+    "vi": "Bài giảng trực tiếp do Cục Di sản Văn hóa, Bộ Văn hóa tổ chức tại Đài Trung.",
+    "ja": "文化部文化資産局が主催する対面の講演(台中)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530884",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530951",
+   "source": "wzu-list",
+   "kind": "launch",
+   "title": {
+    "orig": "海洋素養及海洋職能數位平臺(TODA)上線發布會",
+    "en": "TODA Marine Literacy Platform Launch",
+    "vi": "Lễ ra mắt nền tảng giáo dục hiểu biết về biển TODA",
+    "ja": "TODA 海洋リテラシー・プラットフォーム発表会"
+   },
+   "organizer_en": "National Academy of Marine Research",
+   "topics": [
+    "env",
+    "edu"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-11-04",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Greater Tainan Convention and Exhibition Center",
+     "city_en": "Tainan"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Launch event by the National Academy of Marine Research, in Tainan.",
+    "vi": "Sự kiện ra mắt do Viện Nghiên cứu Biển Quốc gia tổ chức tại Đài Nam.",
+    "ja": "国家海洋研究院による発表イベント(台南)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530951",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530973",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "第十一屆中國文哲之當代詮釋國際學術研討會",
+    "en": "11th International Conference on Contemporary Interpretation of Chinese Philosophy and Literature",
+    "vi": "Hội nghị quốc tế lần thứ 11 về diễn giải đương đại triết học và văn học Trung Hoa",
+    "ja": "第11回 中国哲学・文学の現代的解釈 国際学会"
+   },
+   "organizer_en": "National Taipei University",
+   "topics": [
+    "lang"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-11-06",
+     "end_date": null,
+     "time": "09:30",
+     "venue_en": "International Conference Hall, Room 1F01, Humanities Building, Sanxia Campus, National Taipei University",
+     "city_en": "New Taipei"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "In-person international conference at National Taipei University (New Taipei).",
+    "vi": "Hội nghị quốc tế trực tiếp tại Đại học Quốc lập Đài Bắc (Tân Bắc).",
+    "ja": "国立台北大学(新北市)で開かれる対面形式の国際会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530973",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530970",
+   "source": "wzu-list",
+   "kind": "forum",
+   "title": {
+    "orig": "2026亞洲青年教育發展論壇：AI新時代：僑生教育的轉型與未來",
+    "en": "2026 Asian Youth Education Development Forum: Education for Overseas Chinese Students in the AI Era",
+    "vi": "Diễn đàn phát triển giáo dục thanh niên châu Á 2026: Giáo dục cho sinh viên Hoa kiều trong kỷ nguyên AI",
+    "ja": "2026年 アジア青年教育発展フォーラム:AI時代の華僑留学生教育"
+   },
+   "organizer_en": "NTNU Overseas Chinese Student Preparatory Program",
+   "topics": [
+    "edu",
+    "ai"
+   ],
+   "format": "online",
+   "sessions": [
+    {
+     "date": "2026-11-06",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Google Meet",
+     "city_en": null
+    }
+   ],
+   "area": "online",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Online forum on education for overseas Chinese students in the AI era (Google Meet).",
+    "vi": "Diễn đàn trực tuyến về giáo dục cho sinh viên Hoa kiều trong kỷ nguyên AI (Google Meet).",
+    "ja": "AI時代の華僑留学生教育をテーマにしたオンラインフォーラム(Google Meet)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530970",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530965",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026 International Conference on Advanced Biomedical Sciences 臺灣國際創新生物醫學峰會",
+    "en": "2026 International Conference on Advanced Biomedical Sciences",
+    "vi": "Hội nghị quốc tế 2026 về Khoa học Y sinh tiên tiến",
+    "ja": "2026年 先端生物医科学国際会議"
+   },
+   "organizer_en": "China Medical University",
+   "topics": [
+    "health"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-07",
+     "end_date": null,
+     "time": null,
+     "venue_en": "International Conference Hall, B2, Excellence Building, Shuinan Campus, China Medical University",
+     "city_en": "Taichung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-10-31",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Biomedical conference at China Medical University in Taichung.",
+    "vi": "Hội nghị y sinh tại Đại học Y Trung Quốc (Đài Trung).",
+    "ja": "台中の中国医薬大学で開かれる生物医科学の国際会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530965",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530981",
+   "source": "wzu-list",
+   "kind": "course",
+   "title": {
+    "orig": "職場辦公室的 AI 工具行銷運用與短影音拍攝製作班 第01期",
+    "en": "AI marketing and short-video course (cohort 1)",
+    "vi": "Khóa học tiếp thị AI và video ngắn (khóa 1)",
+    "ja": "AIマーケティング・ショート動画講座(第1期)"
+   },
+   "organizer_en": "Southern Taiwan Science Park Industry-Academia Association",
+   "topics": [
+    "ai",
+    "biz"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-08",
+     "end_date": null,
+     "time": "09:00-12:00, 13:00-17:00",
+     "venue_en": "Room 503 (computer classroom), 5F, Dept. of Systems and Naval Mechatronic Engineering, Zijiang Campus, National Cheng Kung University",
+     "city_en": "Tainan"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Course held in a computer classroom in Tainan, run by a science-park industry–academia association.",
+    "vi": "Khóa học tổ chức tại phòng máy tính ở Đài Nam, do hiệp hội công nghiệp–học thuật của khu khoa học tổ chức.",
+    "ja": "台南のコンピューター教室で開かれる講座。科学園区の産学協会が主催。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530981",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530880",
+   "source": "wzu-list",
+   "kind": "seminar",
+   "title": {
+    "orig": "115年研究參與者保護倫理講習會(X)",
+    "en": "2026 Research Participant Protection Ethics Seminar (X)",
+    "vi": "Hội thảo đạo đức bảo vệ người tham gia nghiên cứu 2026 (X)",
+    "ja": "2026年 研究参加者保護 倫理セミナー(X)"
+   },
+   "organizer_en": "National Yang Ming Chiao Tung University",
+   "topics": [
+    "skills"
+   ],
+   "format": "online",
+   "sessions": [
+    {
+     "date": "2026-11-10",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Cisco Webex",
+     "city_en": null
+    }
+   ],
+   "area": "online",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Online ethics seminar on protecting research participants (Cisco Webex).",
+    "vi": "Hội thảo trực tuyến về đạo đức bảo vệ người tham gia nghiên cứu (Cisco Webex).",
+    "ja": "研究参加者の保護に関するオンライン倫理セミナー(Cisco Webex)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530880",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530912",
+   "source": "wzu-list",
+   "kind": "course",
+   "title": {
+    "orig": "研究倫理教育訓練線上課程",
+    "en": "Research Ethics Training (Online Course)",
+    "vi": "Khóa đào tạo đạo đức nghiên cứu (trực tuyến)",
+    "ja": "研究倫理研修(オンライン講座)"
+   },
+   "organizer_en": "National Tsing Hua University",
+   "topics": [
+    "skills"
+   ],
+   "format": "online",
+   "sessions": [
+    {
+     "date": "2026-11-10",
+     "end_date": null,
+     "time": null,
+     "venue_en": "online",
+     "city_en": null
+    }
+   ],
+   "area": "online",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Online research-ethics training course.",
+    "vi": "Khóa đào tạo trực tuyến về đạo đức nghiên cứu.",
+    "ja": "研究倫理のオンライン研修講座。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530912",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1110",
+   "source": "sinica",
+   "kind": "conference",
+   "title": {
+    "orig": "ILAS–NINJAL Joint Conference on Semantics",
+    "en": "ILAS–NINJAL Joint Conference on Semantics",
+    "vi": "Hội nghị chung ILAS–NINJAL về ngữ nghĩa học",
+    "ja": "ILAS–NINJAL 意味論合同会議"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-10",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Room 519, Humanities and Social Sciences Building (South Wing), Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": "2026-10-31",
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "One-day semantics conference with Japan's NINJAL. Free, but seats are limited.",
+    "vi": "Hội nghị ngữ nghĩa học một ngày cùng NINJAL (Nhật Bản). Miễn phí nhưng số chỗ có hạn.",
+    "ja": "日本の国立国語研究所(NINJAL)との1日の意味論会議。参加無料、席数に限りあり。"
+   },
+   "note": null,
+   "url": "https://www.ling.sinica.edu.tw/main/en?/sign/ILAS-NINJAL",
+   "register_url": "https://www.ling.sinica.edu.tw/main/en?/sign/ILAS-NINJAL"
+  },
+  {
+   "id": "as-ling-1111",
+   "source": "sinica",
+   "kind": "conference",
+   "title": {
+    "orig": "Language Learning and Understanding for AI Scientists and Linguists",
+    "en": "Language Learning and Understanding for AI Scientists and Linguists",
+    "vi": "Học và hiểu ngôn ngữ dành cho nhà khoa học AI và nhà ngôn ngữ học",
+    "ja": "AI研究者と言語学者のための言語学習・理解"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica, with NINJAL",
+   "topics": [
+    "ai",
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-11",
+     "end_date": "2026-11-12",
+     "time": null,
+     "venue_en": "Conference Room II, Humanities and Social Sciences Building (South Wing), Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Two-day meeting bringing AI researchers and linguists together, co-organized with Japan's NINJAL. Registration is open.",
+    "vi": "Hội nghị hai ngày đưa các nhà nghiên cứu AI và nhà ngôn ngữ học lại với nhau, đồng tổ chức với NINJAL (Nhật Bản). Đang mở đăng ký.",
+    "ja": "AI研究者と言語学者が集う2日間の会合。日本のNINJALとの共催。参加登録受付中。"
+   },
+   "note": null,
+   "url": "https://www.ling.sinica.edu.tw/main/en?/sign/LLU2026",
+   "register_url": "https://www.ling.sinica.edu.tw/main/en?/sign/LLU2026"
+  },
+  {
+   "id": "wzu-530984",
+   "source": "wzu-list",
+   "kind": "workshop",
+   "title": {
+    "orig": "第三屆校史書寫工作坊",
+    "en": "3rd University History Writing Workshop",
+    "vi": "Hội thảo viết sử trường đại học lần thứ 3",
+    "ja": "第3回大学史執筆ワークショップ"
+   },
+   "organizer_en": "National Cheng Kung University Museum",
+   "topics": [
+    "lang",
+    "edu"
+   ],
+   "format": "hybrid",
+   "sessions": [
+    {
+     "date": "2026-11-13",
+     "end_date": null,
+     "time": "09:30-17:00",
+     "venue_en": "Future Museum, 3F, Shengli Campus, National Cheng Kung University",
+     "city_en": "Tainan"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-11-05",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Workshop hosted by the National Cheng Kung University Museum in Tainan. Hybrid format.",
+    "vi": "Hội thảo do Bảo tàng Đại học Quốc lập Thành Công (Đài Nam) tổ chức, kết hợp trực tiếp và trực tuyến.",
+    "ja": "台南の成功大学博物館が主催するワークショップ。対面とオンラインの併用。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530984",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530971",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026泛亞洲、東吳大學英文系暨中華民國英語文教師學會英語文教學國際研討會",
+    "en": "2026 Pan-Asia ELT Conference (Soochow University / ETA-ROC)",
+    "vi": "Hội nghị giảng dạy tiếng Anh Liên Á 2026 (Đại học Soochow / ETA-ROC)",
+    "ja": "2026年 汎アジア英語教育(ELT)会議(東吳大学/ETA-ROC)"
+   },
+   "organizer_en": "Soochow University, Department of English",
+   "topics": [
+    "lang",
+    "edu"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-11-13",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Room R0905 (English and American Culture Classroom), Waishuangxi Campus, Soochow University (pre-conference workshop)",
+     "city_en": "Taipei"
+    },
+    {
+     "date": "2026-11-14",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Taipei Jiantan Youth Activity Center (conference)",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Two-day English-teaching conference in Taipei (13–14 Nov), at Soochow University and the Jiantan Youth Activity Center.",
+    "vi": "Hội nghị hai ngày về giảng dạy tiếng Anh tại Đài Bắc (13–14/11), ở Đại học Soochow và Trung tâm Hoạt động Thanh niên Kiếm Đàm.",
+    "ja": "台北で2日間行われる英語教育の会議(11月13〜14日)。会場は東吳大学と劍潭青年活動センター。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530971",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530938",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "「重塑教育文化-以對話邁向共好」國際學術研討會",
+    "en": "International Conference on Reshaping Educational Culture through Dialogue",
+    "vi": "Hội nghị quốc tế về định hình văn hóa giáo dục qua đối thoại",
+    "ja": "対話による教育文化の再構築 国際会議"
+   },
+   "organizer_en": "National Taiwan Normal University",
+   "topics": [
+    "edu"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-14",
+     "end_date": null,
+     "time": null,
+     "venue_en": "International Conference Hall, 2F, College of Education Building, National Taiwan Normal University",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "International conference at National Taiwan Normal University in Taipei.",
+    "vi": "Hội nghị quốc tế tại Đại học Sư phạm Quốc lập Đài Loan (Đài Bắc).",
+    "ja": "台北の国立台湾師範大学で開かれる国際会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530938",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1116",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "Puyuma and language endangerment",
+    "en": "Puyuma and Language Endangerment",
+    "vi": "Tiếng Puyuma và nguy cơ ngôn ngữ",
+    "ja": "プユマ語と言語の危機"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-16",
+     "end_date": null,
+     "time": "14:00-16:00",
+     "venue_en": "Meeting Room 520, Institute of Linguistics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Talk by Josiane Cauquelin on the Puyuma language, an Austronesian language of Taitung.",
+    "vi": "Bài nói chuyện của Josiane Cauquelin về tiếng Puyuma, một ngôn ngữ Nam Đảo ở Đài Đông.",
+    "ja": "Josiane Cauquelin氏による、台東のオーストロネシア語プユマ語についての講演。"
+   },
+   "note": {
+    "en": "The institute's list links to its home page, not to this event, so the link above is the list.",
+    "vi": "Danh sách của viện dẫn về trang chủ chứ không về sự kiện này, nên liên kết trên là trang danh sách.",
+    "ja": "研究所の一覧のリンクがトップページに飛ぶため、上のリンクは一覧ページ。"
+   },
+   "url": "https://www.ling.sinica.edu.tw/main/en?act=activity_list&c=list&type=1",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1119",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "Language, change, and shamanism: Over four decades of linguistic documentation in Nanwang Puyuma",
+    "en": "Language, Change, and Shamanism: Over Four Decades of Linguistic Documentation in Nanwang Puyuma",
+    "vi": "Ngôn ngữ, biến đổi và shaman giáo: Hơn bốn thập kỷ ghi chép ngôn ngữ Puyuma ở Nam Vương",
+    "ja": "言語・変化・シャーマニズム:南王プユマ語の40年にわたる記録"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang",
+    "social"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-19",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Meeting Room 519, Institute of Linguistics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Talk by Josiane Cauquelin, using a short film that spans nearly four decades in a Puyuma community in Taitung.",
+    "vi": "Bài nói chuyện của Josiane Cauquelin, dựa trên một đoạn phim ngắn kéo dài gần bốn thập kỷ về một cộng đồng Puyuma ở Đài Đông.",
+    "ja": "Josiane Cauquelin氏が、台東のプユマ族の集落を約40年にわたり撮影した短編映像をもとに語る講演。"
+   },
+   "note": {
+    "en": "The institute's list links to its home page, not to this event, so the link above is the list.",
+    "vi": "Danh sách của viện dẫn về trang chủ chứ không về sự kiện này, nên liên kết trên là trang danh sách.",
+    "ja": "研究所の一覧のリンクがトップページに飛ぶため、上のリンクは一覧ページ。"
+   },
+   "url": "https://www.ling.sinica.edu.tw/main/en?act=activity_list&c=list&type=1",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530954",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026代間教育實踐學術研討會",
+    "en": "2026 Intergenerational Education Practice Symposium",
+    "vi": "Hội thảo thực hành giáo dục liên thế hệ 2026",
+    "ja": "2026年 世代間教育実践シンポジウム"
+   },
+   "organizer_en": "Chaoyang University of Technology",
+   "topics": [
+    "edu",
+    "social"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": "2026-11-20",
+     "end_date": null,
+     "time": "09:00-17:00",
+     "venue_en": "Shiuan Hall, 3F, Management Building, Chaoyang University of Technology",
+     "city_en": "Taichung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "In-person symposium at Chaoyang University of Technology in Taichung.",
+    "vi": "Hội thảo trực tiếp tại Đại học Khoa học Kỹ thuật Triều Dương (Đài Trung).",
+    "ja": "台中の朝陽科技大学での対面シンポジウム。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530954",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530918",
+   "source": "wzu-list",
+   "kind": "workshop",
+   "title": {
+    "orig": "Fundamentals of Communication 線上學術訓練工作坊",
+    "en": "Fundamentals of Communication Online Training Workshop",
+    "vi": "Hội thảo đào tạo trực tuyến: Kiến thức cơ bản về giao tiếp",
+    "ja": "コミュニケーション基礎 オンライン研修"
+   },
+   "organizer_en": "Academia Sinica / EMBO",
+   "topics": [
+    "skills",
+    "career"
+   ],
+   "format": "online",
+   "sessions": [
+    {
+     "date": "2026-11-23",
+     "end_date": null,
+     "time": null,
+     "venue_en": "online",
+     "city_en": null
+    },
+    {
+     "date": "2026-11-27",
+     "end_date": null,
+     "time": null,
+     "venue_en": "online",
+     "city_en": null
+    }
+   ],
+   "area": "online",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Online training workshop on communication fundamentals, on two dates.",
+    "vi": "Hội thảo đào tạo trực tuyến về kiến thức giao tiếp cơ bản, hai ngày.",
+    "ja": "コミュニケーションの基礎を学ぶオンライン研修(2日間)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530918",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530885",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026 韌性與管理國際研討會",
+    "en": "2026 International Conference on Resilience and Management",
+    "vi": "Hội nghị quốc tế 2026 về khả năng chống chịu và quản trị",
+    "ja": "2026年 レジリエンスとマネジメント 国際会議"
+   },
+   "organizer_en": "National Tsing Hua University, Resilience Research Center",
+   "topics": [
+    "biz",
+    "social"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-11-26",
+     "end_date": null,
+     "time": null,
+     "venue_en": "9F, TSMC Building, National Tsing Hua University",
+     "city_en": "Hsinchu"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": "2026-11-15",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Conference hosted by the Resilience Research Center at National Tsing Hua University in Hsinchu.",
+    "vi": "Hội nghị do Trung tâm Nghiên cứu Khả năng Chống chịu của Đại học Quốc lập Thanh Hoa (Tân Trúc) tổ chức.",
+    "ja": "新竹の国立清華大学レジリエンス研究センターが主催する会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530885",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1203",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "Perfect, already, and the case against iamitives",
+    "en": "Perfect, Already, and the Case against Iamitives",
+    "vi": "Thể hoàn thành, “already” và luận cứ chống lại iamitive",
+    "ja": "完了、already、そして iamitive 反対論"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-03",
+     "end_date": null,
+     "time": "10:00-12:00",
+     "venue_en": "Meeting Room 519, Institute of Linguistics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Semantics talk by Jozina Vander Klok, based on the Javanese word wis.",
+    "vi": "Bài nói chuyện về ngữ nghĩa học của Jozina Vander Klok, dựa trên từ wis trong tiếng Java.",
+    "ja": "Jozina Vander Klok氏による意味論の講演。ジャワ語の wis を題材にする。"
+   },
+   "note": {
+    "en": "The institute's list links to its home page, not to this event, so the link above is the list.",
+    "vi": "Danh sách của viện dẫn về trang chủ chứ không về sự kiện này, nên liên kết trên là trang danh sách.",
+    "ja": "研究所の一覧のリンクがトップページに飛ぶため、上のリンクは一覧ページ。"
+   },
+   "url": "https://www.ling.sinica.edu.tw/main/en?act=activity_list&c=list&type=1",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-1208",
+   "source": "sinica",
+   "kind": "lecture",
+   "title": {
+    "orig": "Modality for cross-linguistic use",
+    "en": "Modality for Cross-Linguistic Use",
+    "vi": "Tình thái cho nghiên cứu đa ngôn ngữ",
+    "ja": "言語横断的な法性(モダリティ)研究のために"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-08",
+     "end_date": "2026-12-09",
+     "time": "10:00",
+     "venue_en": "Meeting Room 519, Institute of Linguistics, Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": null,
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Two-day session (8–9 Dec) led by Jozina Vander Klok, listed under the institute's lectures.",
+    "vi": "Buổi hai ngày (8–9/12) do Jozina Vander Klok dẫn dắt, được xếp trong mục bài giảng của viện.",
+    "ja": "Jozina Vander Klok氏による2日間のセッション(12月8〜9日)。研究所の講演一覧に掲載。"
+   },
+   "note": {
+    "en": "The institute's list links to its home page, not to this event, so the link above is the list.",
+    "vi": "Danh sách của viện dẫn về trang chủ chứ không về sự kiện này, nên liên kết trên là trang danh sách.",
+    "ja": "研究所の一覧のリンクがトップページに飛ぶため、上のリンクは一覧ページ。"
+   },
+   "url": "https://www.ling.sinica.edu.tw/main/en?act=activity_list&c=list&type=1",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530948",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026中華民國通識教育學會年會暨學術研討會",
+    "en": "2026 General Education Society Annual Conference",
+    "vi": "Hội nghị thường niên 2026 của Hiệp hội Giáo dục Đại cương",
+    "ja": "2026年 一般教育学会 年次大会"
+   },
+   "organizer_en": "General Education Association of Taiwan (ROC)",
+   "topics": [
+    "edu"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-11",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Chung Shan Medical University",
+     "city_en": "Taichung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-11-30",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Annual meeting of the General Education Association, at Chung Shan Medical University in Taichung.",
+    "vi": "Hội nghị thường niên của Hiệp hội Giáo dục Đại cương, tại Đại học Y khoa Trung Sơn (Đài Trung).",
+    "ja": "一般教育学会の年次大会。会場は台中の中山医学大学。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530948",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530944",
+   "source": "wzu-list",
+   "kind": "competition",
+   "title": {
+    "orig": "2026無限次元智慧醫療設計競賽 (決賽)",
+    "en": "2026 Smart Medical Design Competition (finals)",
+    "vi": "Cuộc thi thiết kế y tế thông minh 2026 (vòng chung kết)",
+    "ja": "2026年 スマート医療デザインコンペ(決勝)"
+   },
+   "organizer_en": "National Central University, Dept. of Biomedical Sciences and Engineering",
+   "topics": [
+    "health",
+    "eng"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-11",
+     "end_date": null,
+     "time": "13:00-17:00",
+     "venue_en": "Midi Hotel Zhongli",
+     "city_en": "Taoyuan"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": "2026-11-20",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Finals of a smart-medical design competition, hosted by National Central University's biomedical department.",
+    "vi": "Vòng chung kết cuộc thi thiết kế y tế thông minh, do khoa Y sinh Đại học Quốc lập Trung Ương tổ chức.",
+    "ja": "スマート医療デザインコンペの決勝。国立中央大学の生物医学科が主催。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530944",
+   "register_url": null
+  },
+  {
+   "id": "ntu-awec-1211",
+   "source": "ntu",
+   "kind": "lecture",
+   "title": {
+    "orig": "Al，請坐副駕：溝通、寫作與研究（115-1 寫作教學中心演講）",
+    "en": "AI, Please Sit in the Co-pilot Seat: Communication, Writing and Research (NTU Writing Center talk, 115-1 series)",
+    "vi": "AI, hãy ngồi ghế phụ lái: Giao tiếp, viết và nghiên cứu (buổi nói chuyện của Trung tâm Viết NTU)",
+    "ja": "AI は副操縦士席へ:コミュニケーション・ライティング・研究(台大ライティングセンター講演)"
+   },
+   "organizer_en": "NTU Writing Center",
+   "topics": [
+    "skills",
+    "ai"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-11",
+     "end_date": null,
+     "time": null,
+     "venue_en": null,
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": "ntu",
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Talk series of the NTU Writing Center for this term; its page lists talks on AI, literature reviews and academic writing. NTU's homepage gives 11 Dec as the date.",
+    "vi": "Chuỗi bài nói chuyện của Trung tâm Viết NTU trong học kỳ này; trang liệt kê các buổi về AI, tổng quan tài liệu và viết học thuật. Trang chủ NTU ghi ngày 11/12.",
+    "ja": "今学期の台大ライティングセンターの講演シリーズ。AI、文献レビュー、学術ライティングなどの回がある。日付はNTUのトップページでは12月11日。"
+   },
+   "note": {
+    "en": "Time and room are not given on the series page; check it before you go.",
+    "vi": "Trang chuỗi bài nói chuyện không nêu giờ và phòng; hãy kiểm tra trước khi đến.",
+    "ja": "シリーズのページに時間と教室の記載なし。参加前に確認を。"
+   },
+   "url": "https://awec.ntu.edu.tw/al%ef%bc%8c-%e8%ab%8b%e5%9d%90%e5%89%af%e9%a7%95%ef%bc%9a-%e6%ba%9d%e9%80%9a%e3%80%81%e5%af%ab%e4%bd%9c%e8%88%87%e7%a0%94%e7%a9%b6/",
+   "register_url": "https://my.ntu.edu.tw/actregister/sessionList.aspx?actID=20261260_03"
+  },
+  {
+   "id": "wzu-530901",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026台灣統計方法學學會年會暨學術研討會",
+    "en": "2026 Taiwan Statistical Methodology Society Annual Meeting",
+    "vi": "Hội nghị thường niên 2026 của Hội Phương pháp Thống kê Đài Loan",
+    "ja": "2026年 台湾統計方法学会 年次大会"
+   },
+   "organizer_en": "Taiwan Statistical Methodology Society",
+   "topics": [
+    "ai"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-12",
+     "end_date": null,
+     "time": "09:00-17:00",
+     "venue_en": "Science Education Center, National Taiwan Normal University",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": null,
+   "deadline": "2026-12-02",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Annual meeting of the Taiwan Statistical Methodology Society, at the Science Education Center of National Taiwan Normal University.",
+    "vi": "Hội nghị thường niên của Hội Phương pháp Thống kê Đài Loan, tại Trung tâm Giáo dục Khoa học thuộc Đại học Sư phạm Quốc lập Đài Loan.",
+    "ja": "台湾統計方法学会の年次大会。会場は国立台湾師範大学の科学教育センター。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530901",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530942",
+   "source": "wzu-list",
+   "kind": "workshop",
+   "title": {
+    "orig": "我要成為研究大師！AI學術寫作×期刊投稿實戰工作坊",
+    "en": "AI Academic Writing and Journal Submission Workshop",
+    "vi": "Hội thảo viết học thuật với AI và nộp bài báo tạp chí",
+    "ja": "AIを使った学術論文執筆・投稿ワークショップ"
+   },
+   "organizer_en": "National Taipei University",
+   "topics": [
+    "ai",
+    "skills"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-12",
+     "end_date": null,
+     "time": "10:00-17:00",
+     "venue_en": "Zijiang Building, Hejiang Campus, National Taipei University",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": null,
+   "deadline": "2026-12-05",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Workshop on using AI for academic writing and journal submission, at National Taipei University (Taipei).",
+    "vi": "Hội thảo về dùng AI để viết học thuật và nộp bài báo, tại Đại học Quốc lập Đài Bắc (Đài Bắc).",
+    "ja": "AIを使った学術論文の執筆と投稿に関するワークショップ(国立台北大学)。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530942",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530896",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026多元文化能力與諮商輔導實務國際研討會",
+    "en": "2026 International Conference on Multicultural Competence and Counseling",
+    "vi": "Hội nghị quốc tế 2026 về năng lực đa văn hóa và tham vấn",
+    "ja": "2026年 多文化コンピテンスとカウンセリング 国際会議"
+   },
+   "organizer_en": "National Pingtung University",
+   "topics": [
+    "social",
+    "edu"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-18",
+     "end_date": null,
+     "time": "08:40-17:00",
+     "venue_en": "International Conference Hall, Wuyu Building, Minsheng Campus, National Pingtung University",
+     "city_en": "Pingtung County"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": null,
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "International conference at National Pingtung University.",
+    "vi": "Hội nghị quốc tế tại Đại học Quốc lập Bình Đông.",
+    "ja": "国立屏東大学で開かれる国際会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530896",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530930",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2026年體育運動與休閒學術研討會",
+    "en": "2026 Sports and Leisure Academic Conference",
+    "vi": "Hội nghị học thuật Thể thao và Giải trí 2026",
+    "ja": "2026年 スポーツ・レジャー学術会議"
+   },
+   "organizer_en": "National University of Tainan",
+   "topics": [
+    "health",
+    "social"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2026-12-19",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Chengzheng Building (rooms B401, B307, B308), National University of Tainan",
+     "city_en": "Tainan"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-11-02",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Academic conference at the National University of Tainan.",
+    "vi": "Hội nghị học thuật tại Đại học Quốc lập Đài Nam.",
+    "ja": "国立台南大学で開かれる学術会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530930",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530958",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "2027追求高教卓越國際學術研討會",
+    "en": "2027 International Conference on Pursuing Excellence in Higher Education",
+    "vi": "Hội nghị quốc tế 2027 về theo đuổi sự xuất sắc trong giáo dục đại học",
+    "ja": "2027年 高等教育における卓越性の追求 国際会議"
+   },
+   "organizer_en": "Ming Chuan University",
+   "topics": [
+    "edu"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2027-03-12",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Taoyuan Campus, Ming Chuan University",
+     "city_en": "Taoyuan"
+    }
+   ],
+   "area": "north",
+   "hub": null,
+   "deadline": "2026-12-18",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Higher-education conference at Ming Chuan University's Taoyuan campus, in March 2027.",
+    "vi": "Hội nghị về giáo dục đại học tại cơ sở Đào Viên của Đại học Minh Truyền, tháng 3/2027.",
+    "ja": "2027年3月、銘傳大学桃園キャンパスで開かれる高等教育の会議。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530958",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530898",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "第一屆通識英文教育暨語言教學研討會（GEELT 2027）",
+    "en": "GEELT 2027: 1st Conference on General English Education",
+    "vi": "GEELT 2027: Hội nghị đầu tiên về giáo dục tiếng Anh đại cương",
+    "ja": "GEELT 2027:第1回 一般英語教育会議"
+   },
+   "organizer_en": "National Chiayi University, Language Center",
+   "topics": [
+    "lang",
+    "edu"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2027-03-19",
+     "end_date": null,
+     "time": null,
+     "venue_en": "Lantan Campus, National Chiayi University",
+     "city_en": "Chiayi"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2026-11-08",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "First conference on general English education, at National Chiayi University's Language Center.",
+    "vi": "Hội nghị đầu tiên về giáo dục tiếng Anh đại cương, tại Trung tâm Ngôn ngữ Đại học Quốc lập Gia Nghĩa.",
+    "ja": "一般英語教育についての第1回会議。国立嘉義大学言語センターが主催。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530898",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530910",
+   "source": "wzu-list",
+   "kind": "forum",
+   "title": {
+    "orig": "2027外語暨人文創意學院全國研究生論文發表暨研究論壇",
+    "en": "2027 National Graduate Paper Forum (Providence University)",
+    "vi": "Diễn đàn luận văn sau đại học toàn quốc 2027 (Đại học Providence)",
+    "ja": "2027年 全国大学院生論文フォーラム(静宜大学)"
+   },
+   "organizer_en": "Providence University",
+   "topics": [
+    "skills"
+   ],
+   "format": "in-person",
+   "sessions": [
+    {
+     "date": null,
+     "end_date": null,
+     "time": null,
+     "venue_en": "Room 221, Boduo Building, Providence University",
+     "city_en": "Taichung"
+    }
+   ],
+   "area": "south",
+   "hub": null,
+   "deadline": "2027-03-26",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "A national forum for graduate-level papers, hosted at Providence University in Taichung. The event date is not stated; only the deadline is.",
+    "vi": "Diễn đàn toàn quốc về luận văn bậc sau đại học, tổ chức tại Đại học Providence (Đài Trung). Bài đăng không nêu ngày tổ chức, chỉ có hạn chót.",
+    "ja": "大学院レベルの論文を扱う全国フォーラム(静宜大学・台中)。開催日は記載なしで、締切のみ記載。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530910",
+   "register_url": null
+  },
+  {
+   "id": "wzu-530924",
+   "source": "wzu-list",
+   "kind": "conference",
+   "title": {
+    "orig": "重新想像師資教育：AI時代的教育創新、實踐智慧與專業認同 國際學術研討會",
+    "en": "International Conference: Reimagining Teacher Education in the AI Era",
+    "vi": "Hội nghị quốc tế: Tái định hình đào tạo giáo viên trong kỷ nguyên AI",
+    "ja": "国際会議:AI時代の教員養成を再考する"
+   },
+   "organizer_en": "National Taiwan Normal University",
+   "topics": [
+    "edu",
+    "ai"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2027-04-23",
+     "end_date": null,
+     "time": null,
+     "venue_en": "National Chengchi University, Center for Public and Business Administration Education",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "taipei",
+   "hub": null,
+   "deadline": "2026-11-30",
+   "language": {
+    "value": null,
+    "basis": "unknown"
+   },
+   "blurb": {
+    "en": "Organized by National Taiwan Normal University, held at National Chengchi University in Taipei in April 2027.",
+    "vi": "Do Đại học Sư phạm Quốc lập Đài Loan tổ chức, diễn ra tại Đại học Quốc lập Chính Trị (Đài Bắc) vào tháng 4/2027.",
+    "ja": "国立台湾師範大学の主催。2027年4月、台北の国立政治大学で開催。"
+   },
+   "note": null,
+   "url": "https://a001.wzu.edu.tw/article/530924",
+   "register_url": null
+  },
+  {
+   "id": "as-ling-afla34",
+   "source": "sinica",
+   "kind": "conference",
+   "title": {
+    "orig": "The 34th Annual Meeting of the Austronesian Formal Linguistics Association (AFLA-34)",
+    "en": "The 34th Annual Meeting of the Austronesian Formal Linguistics Association (AFLA-34)",
+    "vi": "Hội nghị thường niên lần thứ 34 của Hiệp hội Ngôn ngữ học Hình thức Nam Đảo (AFLA-34)",
+    "ja": "第34回オーストロネシア形式言語学会年次大会(AFLA-34)"
+   },
+   "organizer_en": "Institute of Linguistics, Academia Sinica",
+   "topics": [
+    "lang"
+   ],
+   "format": null,
+   "sessions": [
+    {
+     "date": "2027-06-23",
+     "end_date": "2027-06-25",
+     "time": null,
+     "venue_en": "Conference Room II, Humanities and Social Sciences Building (South Wing), Academia Sinica",
+     "city_en": "Taipei"
+    }
+   ],
+   "area": "nangang",
+   "hub": "academia-sinica",
+   "deadline": "2027-01-15",
+   "language": {
+    "value": "en",
+    "basis": "inferred"
+   },
+   "blurb": {
+    "en": "Annual meeting hosted at Academia Sinica in June 2027. Submissions are open; the abstract deadline is 15 Jan 2027.",
+    "vi": "Hội nghị thường niên tổ chức tại Academia Sinica vào tháng 6/2027. Đang nhận bài; hạn nộp tóm tắt là 15/1/2027.",
+    "ja": "2027年6月に中央研究院で開かれる年次大会。投稿受付中で、アブストラクト締切は2027年1月15日。"
+   },
+   "note": null,
+   "url": "https://www.ling.sinica.edu.tw/main/en?/sign/AFLA34",
+   "register_url": null
+  }
+ ]
+}

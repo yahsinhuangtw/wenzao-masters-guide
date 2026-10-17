@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Taiwan Campus Events Digest (prototype)</title>
+<meta name="description" content="Prototype: a curated, multilingual newsletter of talks, workshops and conferences at Taiwan's universities and Academia Sinica, for international master's students. Preview only, no email is sent.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="./"><img src="../assets/favicon.svg" alt="" width="24" height="24"> <span data-i18n="brand">Taiwan Campus Events Digest</span></a>
+    <div class="bar-right">
+      <div class="seg" role="group" aria-label="Language" id="langSwitch">
+        <button type="button" data-lang="en" lang="en">English</button>
+        <button type="button" data-lang="vi" lang="vi">Tiếng Việt</button>
+        <button type="button" data-lang="ja" lang="ja">日本語</button>
+      </div>
+      <a class="back" href="../" data-i18n="back">Project page</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <span class="pill" data-i18n="pill">Prototype 4 &middot; preview only, no email is sent</span>
+      <h1 data-i18n="heroTitle">Intellectual events across Taiwan, in your language and in your inbox.</h1>
+      <p class="lead" data-i18n="heroLead"></p>
+      <div class="two">
+        <div class="card">
+          <p class="eyebrow" data-i18n="pullEyebrow">Pull</p>
+          <h2 data-i18n="pullTitle">Browse when you want</h2>
+          <p data-i18n="pullText"></p>
+        </div>
+        <div class="card">
+          <p class="eyebrow" data-i18n="pushEyebrow">Push</p>
+          <h2 data-i18n="pushTitle">Hear from us when it matters</h2>
+          <p data-i18n="pushText"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="app wrap">
+    <form id="prefs" class="prefs card" autocomplete="off" novalidate>
+      <h2 data-i18n="prefsTitle">Your newsletter</h2>
+
+      <fieldset>
+        <legend data-i18n="fInterests">Interests</legend>
+        <p class="hint" data-i18n="fInterestsHint">Pick any. Leave empty to see everything.</p>
+        <div class="chips" id="topicChips"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="fWhere">Where</legend>
+        <div class="checks" id="areaChecks"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="fDeliv">Language of the event</legend>
+        <p class="hint" data-i18n="fDelivHint">The newsletter language is the one chosen at the top. This is the language the event itself is given in.</p>
+        <div class="radios" id="delivRadios"></div>
+        <label class="check"><input type="checkbox" id="inclUnknown" checked> <span data-i18n="fUnknown">Also show events whose language is not stated</span></label>
+      </fieldset>
+
+      <fieldset>
+        <legend data-i18n="fPlan">What to send me</legend>
+        <div class="radios" id="planRadios"></div>
+      </fieldset>
+
+      <div class="field">
+        <label for="email" data-i18n="fEmail">Email</label>
+        <input id="email" type="email" inputmode="email" placeholder="you@example.com">
+        <p class="hint" data-i18n="fEmailHint">Demo only: nothing you type here is sent or stored.</p>
+      </div>
+
+      <div class="btns">
+        <button type="submit" class="btn primary" data-i18n="subscribe">Subscribe (demo)</button>
+        <button type="button" class="btn" id="copyLink" data-i18n="copyLink">Copy my settings link</button>
+        <button type="button" class="btn ghost" id="reset" data-i18n="reset">Reset</button>
+      </div>
+      <p id="formMsg" class="msg" role="status" aria-live="polite"></p>
+    </form>
+
+    <div class="out">
+      <div class="tabs" role="tablist" aria-label="Views">
+        <button role="tab" id="tab-browse" aria-controls="panel-browse" data-tab="browse"></button>
+        <button role="tab" id="tab-digest" aria-controls="panel-digest" data-tab="digest"></button>
+        <button role="tab" id="tab-last" aria-controls="panel-last" data-tab="last"></button>
+      </div>
+
+      <div role="tabpanel" id="panel-browse" aria-labelledby="tab-browse">
+        <div class="toolbar">
+          <p id="count" class="count" aria-live="polite"></p>
+          <button type="button" class="btn small" id="icsAll"></button>
+        </div>
+        <ul id="list" class="list"></ul>
+      </div>
+
+      <div role="tabpanel" id="panel-digest" aria-labelledby="tab-digest" hidden>
+        <p id="planDigest" class="planline"></p>
+        <div id="digestMail" class="mail"></div>
+      </div>
+
+      <div role="tabpanel" id="panel-last" aria-labelledby="tab-last" hidden>
+        <p id="planLast" class="planline"></p>
+        <div id="lastMail" class="mail"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap notes" aria-labelledby="h-notes">
+    <h2 id="h-notes" data-i18n="notesTitle">About this prototype</h2>
+    <div class="caveat" role="note" id="caveat"></div>
+    <ul id="notesList"></ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p id="footText"></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
